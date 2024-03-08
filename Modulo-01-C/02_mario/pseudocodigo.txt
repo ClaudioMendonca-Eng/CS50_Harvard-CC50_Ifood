@@ -1,0 +1,24 @@
+Este pseudocódigo descreve de forma geral os passos necessários para implementar o programa, destacando a solicitação de altura, a validação da entrada e a iteração para imprimir a pirâmide de hashtags. Este spoiler é apenas uma abordagem para a resolução do exercício, e existem diversas maneiras de implementar o código em C.
+
+1. Função principal (int main(void)):
+
+2. Declarar uma variável inteira x.
+
+3. Executar um loop do-while:
+
+   3.1. Solicitar ao usuário um número positivo (get_int("Numero positivo: ")).
+   3.2. Continuar repetindo enquanto x for menor que 1 ou maior que 8.
+
+4. Executar um loop for de i = 0 até i < x:
+
+   4.1. Executar um loop for de f = (x-2) até f >= i:
+
+      4.1.1. Imprimir um espaço em branco.
+
+   4.2. Executar um loop for de j = 0 até j <= i:
+
+      4.2.1. Imprimir um caractere "#" (hashtag).
+
+   4.3. Imprimir uma quebra de linha.
+
+5. Fim da função principal.
