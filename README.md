@@ -50,6 +50,8 @@ O CC50 é mais do que um curso, é uma experiência que nos desafia, expande nos
 
 ## <a name="modulo00"> Modulo 00 Scratch </a>
 
+[![Aula 0- Conheça o Scratch](img/00-Aula00_youtube.png)](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t)
+
 Na aula 0, exploramos diversos tópicos essenciais da Ciência da Computação. Começamos com uma calorosa recepção e uma introdução ao curso, abordando conceitos como representação numérica, algoritmos, pseudocódigo e outras fundamentais da disciplina.
   
 A discussão sobre representação numérica incluiu sistemas como unário, decimal e binário, este último sendo o utilizado pelos computadores. A compreensão de como números são representados é crucial para entender o funcionamento interno dos dispositivos eletrônicos.
