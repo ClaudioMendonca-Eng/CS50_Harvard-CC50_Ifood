@@ -108,6 +108,8 @@ A culminação desse esforço criativo encontra-se no meu projeto do Dinossauro 
 
 Link para o projeto: [Dinossauro Google](https://scratch.mit.edu/projects/971443808){:target="_blank"}
 
+Link para o projeto: <a href="https://scratch.mit.edu/projects/971443808" target="_blank">Dinossauro Google</a>
+
 
 <details>
   <summary>Clique para ver o spoiler</summary>
