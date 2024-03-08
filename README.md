@@ -102,11 +102,11 @@ A criatividade floresceu com a introdução de variáveis, elementos dinâmicos 
 
 Apesar de não incorporar sons no projeto, a atmosfera do jogo permanece intensa. Cada pulo do dinossauro, cada vitória e derrota são marcados por uma trilha sonora imaginativa, criada mentalmente durante a exploração da selva virtual.
 
-A culminação desse esforço criativo encontra-se no meu projeto do Dinossauro Google, agora disponível para explorar e desfrutar [aqui](https://scratch.mit.edu/projects/971443808 target=_blank). Cada linha de código é um fragmento do meu entusiasmo, cada comando uma escolha deliberada para criar uma experiência única. Sinta-se convidado a aventurar-se na terra dos dinossauros, onde a diversão é infinita, e a criatividade não conhece limites!
+A culminação desse esforço criativo encontra-se no meu projeto do Dinossauro Google, agora disponível para explorar e desfrutar [aqui](https://scratch.mit.edu/projects/971443808){:target="_blank"}. Cada linha de código é um fragmento do meu entusiasmo, cada comando uma escolha deliberada para criar uma experiência única. Sinta-se convidado a aventurar-se na terra dos dinossauros, onde a diversão é infinita, e a criatividade não conhece limites!
 
 ![](img/01-scratch-dinossauro.png)
 
-Link para o projeto: [Dinossauro Google](https://scratch.mit.edu/projects/971443808 target=_blank)
+Link para o projeto: [Dinossauro Google](https://scratch.mit.edu/projects/971443808){:target="_blank"}
 
 
 <details>
