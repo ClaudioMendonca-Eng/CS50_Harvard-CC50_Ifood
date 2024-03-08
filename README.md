@@ -50,6 +50,8 @@ O CC50 é mais do que um curso, é uma experiência que nos desafia, expande nos
 
 ## <a name="modulo00"> Modulo 00 Scratch </a>
 
+Aula 0- Conheça o Scratch
+
 [![Aula 0- Conheça o Scratch](img/00-Aula00_youtube.png)](https://www.youtube.com/watch?v=9iPsnGJ3kVE&t)
 
 Na aula 0, exploramos diversos tópicos essenciais da Ciência da Computação. Começamos com uma calorosa recepção e uma introdução ao curso, abordando conceitos como representação numérica, algoritmos, pseudocódigo e outras fundamentais da disciplina.
@@ -110,14 +112,12 @@ A combinação desse esforço criativo encontra-se no meu projeto do Dinossauro 
 
 Link para o projeto: [Dinossauro Google](https://scratch.mit.edu/projects/971443808)
 
-
-<details>
-  <summary>Clique para ver o spoiler</summary>
-  teste Este é o texto que será ocultado.
-</details>
-
-
 ## <a name="modulo01"> Modulo 01 C </a>
+
+Aula 1- Linguagem de Programação C
+
+[![Aula 1- Linguagem de Programação C](img/02-Aula01_youtube.png)](https://www.youtube.com/watch?v=rCTePooJP_s)
+
 
 Hoje dei início ao Módulo 1 do curso CC50. Na segunda aula, fui introduzido à linguagem de programação C e aprendi sobre conceitos como compilação, funções, argumentos, ferramentas e comandos, tipos e formatos de código. Conheci a IDE do curso e explorei os conceitos de operadores, limitações, truncamentos, estruturas condicionais, repetição, expressões booleanas, abstração, header de arquivos, função main, memória e overflow.
 
@@ -243,6 +243,112 @@ Ao longo do curso, desenvolvi programas simples e compreendi conceitos fundament
   
   Link do teste: [Teste CS50 Credit](https://submit.cs50.io/check50/a877a9104b3974f35df73d61c09ce1cbea0a597b)
 </details>
+
+## <a name="modulo02"> Modulo 02 Arrays </a>
+
+Aula 2- Arrays
+
+[![Aula 2- Arrays](img/03-Aula02_youtube.png)](https://www.youtube.com/watch?v=yvAVgpKW6tY)
+
+Minha experiência na aula de Arrays foi bastante informativa e prática. Durante a segunda aula, focamos em diversos tópicos, como compilação, depuração, memória, matrizes, strings, argumentos de linha de comando e formulários.
+
+Na compilação, aprendemos a transformar nosso código-fonte em código de máquina utilizando o compilador clang. Utilizando o comando make, que na verdade invoca o clang, conseguimos compilar nossos programas e gerar arquivos executáveis. Além disso, exploramos a importância da pré-compilação, compilação, montagem e vinculação na transformação do código-fonte em código executável.
+
+No tópico de depuração, abordamos a identificação e correção de bugs em nossos programas. Utilizando ferramentas como help50, style50 e check50, aprendemos a melhorar a qualidade e correção do nosso código. Também exploramos o uso da função printf como uma ferramenta de depuração, adicionando mensagens temporárias para entender melhor o fluxo do programa.
+
+Ao discutir memória, compreendemos os diferentes tipos de variáveis em C e sua alocação na memória RAM. Exploramos conceitos como bytes, bits e o uso de variáveis como bool, char, int, double, float, e string, cada uma ocupando uma quantidade específica de espaço na memória.
+
+No tópico de matrizes, aprendemos a declarar e manipular arrays, armazenando múltiplos valores do mesmo tipo em uma única variável. Com exemplos práticos, como calcular a média de valores em um array, entendemos como iterar sobre os elementos usando loops.
+
+Strings foram discutidas como arrays de caracteres, onde cada caractere é armazenado em uma posição específica da memória. Exploramos a manipulação de strings, conversão de caracteres para seus valores ASCII e o uso de funções como strlen, islower, toupper para processar e modificar strings de maneira eficiente.
+
+Os argumentos de linha de comando foram introduzidos como uma forma de fornecer inputs para nossos programas ao executá-los a partir da linha de comando. Entendemos como argc e argv são usados para receber esses argumentos e adaptamos nosso programa para responder de acordo.
+
+Finalmente, discutimos aplicações práticas, como analisar a legibilidade de parágrafos de texto e exploramos conceitos iniciais sobre criptografia, onde entendemos a ideia de cifras, plaintext, ciphertext e a importância de chaves secretas.
+
+Essa aula proporcionou uma compreensão mais aprofundada dos fundamentos da programação em C, preparando-me para enfrentar desafios mais complexos no desenvolvimento de software.
+
+<details>
+  <summary>Mais detalhes exercício Legibilidade:</summary>
+  Após concluir o curso, desenvolvi um programa chamado "readability" que calcula o índice Coleman-Liau de um texto para determinar seu nível de leitura aproximado. O programa solicita ao usuário uma string de texto, conta o número de letras, palavras e frases no texto e, em seguida, utiliza a fórmula Coleman-Liau para calcular o nível de leitura.
+  
+  Ao executar o programa, o usuário insere um texto, e o programa fornece como saída o resultado no formato "Grade X", onde X representa o nível de grau calculado. Se o índice resultante for 16 ou superior, indicando um nível de leitura equivalente ou superior ao de um graduado sênior, o programa exibe "Grade 16+". Se o índice for inferior a 1, o programa imprime "Before Grade 1".
+  
+  Ao longo do desenvolvimento, utilizei a fórmula Coleman-Liau, que é expressa por índice = 0,0588 * L - 0,296 * S - 15,8, onde L é o número médio de letras por 100 palavras no texto e S é o número médio de sentenças por 100 palavras no texto.
+  
+  Para exemplificar, ao inserir um trecho do Dr. Seuss, o programa calcula o nível de leitura com base nas médias de letras e sentenças por 100 palavras, conforme a fórmula mencionada anteriormente. Dessa forma, proporciona uma avaliação compreensível do nível de leitura do texto, em um formato amigável, como "Grade 3". Este método também foi aplicado a outros textos de exemplo para verificar a consistência e eficácia do programa. 
+
+  O código foi estruturado no diretório [Modulo-02-Arrays/07_readability/readability.c](Modulo-02-Arrays/07_readability/readability.c).O programa foi testado com diversos casos, incluindo exemplos com diferentes complexidades textuais, para garantir que funcionasse conforme as especificações do problema.
+  
+  Link do teste: [Teste CS50 Legibilidade](https://submit.cs50.io/check50/2fc7d5e283d448109d174493795397a226297f24)
+</details>
+
+<details>
+  <summary>Mais detalhes exercício Caesar:</summary>
+  Após concluir o curso, desenvolvi um programa chamado "caesar" que implementa a cifra de César para criptografar mensagens. A cifra de César é um método de criptografia que envolve o deslocamento de cada letra em um número fixo de posições no alfabeto. O programa aceita um único argumento de linha de comando, representando a chave de criptografia.
+  
+  Ao ser executado, o programa verifica se o argumento da linha de comando é um número não negativo e exibe uma mensagem de erro caso contrário. Em seguida, solicita ao usuário inserir o texto simples e, para cada caractere do texto, realiza o deslocamento conforme a cifra de César, preservando a capitalização e ignorando caracteres não alfabéticos. O resultado criptografado é exibido como saída, seguido por uma nova linha.
+  
+  O código fonte foi implementado em um arquivo chamado "caesar.c" dentro do diretório "caesar". O programa foi projetado para garantir a segurança e coerência da criptografia, mesmo que o usuário forneça uma chave maior que 26. Caso o programa seja executado sem argumento ou com mais de um argumento, uma mensagem de erro adequada é exibida.
+  
+  O pseudocódigo básico para o programa envolve a verificação do argumento de linha de comando, a conversão da chave para um número inteiro, a solicitação do texto simples e a aplicação da cifra de César a cada caractere do texto. 
+  
+  O código foi estruturado no diretório [Modulo-02-Arrays/08_caesar/caesar.c](Modulo-02-Arrays/08_caesar/caesar.c).O programa foi testado com vários casos, incluindo exemplos com diferentes chaves e textos simples para garantir seu funcionamento conforme as especificações do problema.
+  
+  Link do teste: [Teste CS50 Caesar](https://submit.cs50.io/check50/1e7246bb66c1e0b9379f54193cd6d6ad28765609)
+</details>
+
+<details>
+  <summary>Mais detalhes exercício Substituição:</summary>
+  Após concluir o curso, desenvolvi um programa chamado "substitution" que implementa uma cifra de substituição para criptografar mensagens. Nessa cifra, cada letra é substituída por outra de acordo com uma chave fornecida pelo usuário. A chave é uma sequência de 26 caracteres que mapeia cada letra do alfabeto para a letra correspondente na cifra.
+  
+  Ao ser executado, o programa verifica se o usuário forneceu um único argumento de linha de comando, representando a chave de substituição. Em seguida, verifica se a chave é válida, garantindo que contenha exatamente 26 caracteres alfabéticos e que cada letra apareça apenas uma vez. Caso contrário, exibe uma mensagem de erro apropriada e encerra o programa.
+  
+  O programa solicita ao usuário inserir o texto simples e, para cada caractere do texto, realiza a substituição de acordo com a chave. O resultado criptografado é exibido como saída, preservando a capitalização e ignorando caracteres não alfabéticos. Após a saída do texto cifrado, o programa imprime uma nova linha e retorna 0 da função main.
+  
+  O programa foi projetado para garantir a validade da chave de substituição e preservar a capitalização das letras maiúsculas e minúsculas no texto original.
+  
+  O pseudocódigo básico para o programa envolve a verificação do argumento de linha de comando, a validação da chave, a solicitação do texto simples e a aplicação da cifra de substituição a cada caractere do texto.
+  
+  O código foi estruturado no diretório [Modulo-02-Arrays/09_substitution/substitution.c](Modulo-02-Arrays/09_substitution/substitution.c).O programa foi testado com vários casos, incluindo exemplos com diferentes chaves e textos simples, para garantir seu funcionamento conforme as especificações do problema.
+  
+  Link do teste: [Teste CS50 Substituição](https://submit.cs50.io/check50/57da596dab1558fafd74c95f10952526d595575e)
+</details>
+
+<details>
+  <summary>Mais detalhes Laboratório 2 - Scrabble:</summary>
+  Após concluir o curso, eu desenvolvi um programa chamado "scrabble.c", que determina o vencedor em um jogo curto de Scrabble. Neste jogo, dois jogadores inserem suas palavras, e o programa calcula a pontuação de cada palavra com base nos valores atribuídos a cada letra do alfabeto.
+  
+  O programa utiliza uma matriz chamada POINTS, onde cada posição representa a pontuação associada a uma letra específica. Por exemplo, A ou a valem 1 ponto (POINTS[0]), B ou b valem 3 pontos (POINTS[1]), e assim por diante.
+  
+  Ao executar o programa, os jogadores inserem suas palavras, que são armazenadas nas variáveis word1 e word2. O programa então utiliza a função compute_score() para calcular a pontuação de cada palavra, considerando os valores da matriz POINTS.
+  
+  A função compute_score() recebe uma string como argumento e retorna a pontuação total da palavra, atribuindo zero pontos a caracteres que não são letras. As letras maiúsculas e minúsculas recebem os mesmos valores de pontos.
+  
+  No final, o programa imprime "Player 1 wins!", "Player 2 wins!", ou "Tie!" dependendo das pontuações dos jogadores.
+  
+  O código foi estruturado no diretório [Modulo-02-Arrays/10_scrabble/scrabble.c](Modulo-02-Arrays/10_scrabble/scrabble.c).O código foi testado com diferentes casos, garantindo que o programa funcione corretamente e forneça os resultados esperados para diversas situações, conforme indicado nos exemplos de teste fornecidos.
+  
+  Link do teste: [Teste CS50 Scrabble](https://submit.cs50.io/check50/782fa90e0518fe9860876d58d82058905db6ff85)
+</details>
+
+## <a name="modulo03"> Modulo 03 Algoritmos </a>
+
+Aula 3- Algoritmos
+
+[![Aula 3- Algoritmos](img/04-Aula03_youtube.png)](https://www.youtube.com/watch?v=oBOTNWx0EzY)
+
+Ao revisar as anotações da aula de Algoritmos, pude aprofundar meu entendimento sobre diversos conceitos importantes. A aula começou com uma revisão do módulo anterior, onde aprendemos sobre ferramentas para solucionar problemas no código, como o uso de depuradores e a técnica de "duck debugging".
+
+A parte principal da aula abordou o tema de buscas em algoritmos. A busca, seja linear ou binária, é fundamental para encontrar valores específicos em uma coleção de dados. A notação Big O foi introduzida para descrever o tempo de execução dos algoritmos em diferentes situações. Além disso, foram discutidos algoritmos de ordenação, como o selection sort e bubble sort, cada um com seu próprio desempenho em termos de tempo de execução.
+
+A aula também cobriu o conceito de structs em programação em C, permitindo a criação de estruturas de dados personalizadas. Essa parte foi exemplificada com a implementação de uma lista telefônica, mostrando como structs podem melhorar a organização do código.
+
+Outro tópico importante foi a recursão, que é a capacidade de uma função chamar a si mesma. Isso foi exemplificado por meio de uma abordagem recursiva para desenhar uma pirâmide de blocos.
+
+Por fim, a aula introduziu o algoritmo de ordenação merge sort, que utiliza a recursão para dividir e mesclar listas, proporcionando uma abordagem eficiente para a ordenação.
+
+Em resumo, a aula de Algoritmos forneceu uma compreensão mais profunda de conceitos como busca, ordenação, structs, recursão e algoritmos de ordenação específicos. Este conhecimento aprimorado será valioso para resolver problemas complexos e otimizar o desempenho dos programas que desenvolvo.
 
 
 ## <a name="licença"> Licença </a>
