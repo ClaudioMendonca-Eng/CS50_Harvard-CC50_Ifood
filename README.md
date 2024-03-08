@@ -35,9 +35,9 @@ O CC50 é mais do que um curso, é uma experiência que nos desafia, expande nos
 
 ## <a name="instrutor"> Instrutores </a>
 
-- [David J. Malan](https://cs.harvard.edu/malan/)
-- [Brian Yu](https://cs.harvard.edu/malan/)
-- [Doug Lloyd](https://cs.harvard.edu/malan/)
+- [David J. Malan](https://cs.harvard.edu/malan/) - Professor de Ciência da Computação em Harvard
+- [Brian Yu](https://cs.harvard.edu/malan/) - Instrutor de Ciência da Computação em Harvard
+- [Doug Lloyd](https://cs.harvard.edu/malan/) - Instrutor de Ciência da Computação em Harvard
 
 ## <a name="apresentacao"> Apresentação </a>
 
@@ -63,7 +63,7 @@ O pseudocódigo foi apresentado como uma ferramenta para descrever algoritmos em
 Em resumo, esta aula inaugural proporcionou uma visão abrangente dos conceitos fundamentais da Ciência da Computação, estabelecendo as bases para explorarmos temas mais avançados ao longo do curso. Estou empolgado para continuar aprendendo e aplicando esses conhecimentos na prática!
 
 <details>
-  <summary>Scratch</summary>
+  <summary>Mais detalhes Scratch</summary>
   Agora, ao explorar o Scratch, começamos a criar programas utilizando blocos de construção como funções, condições, expressões booleanas e rotações. Ao contrário da linguagem de programação baseada em texto C, o Scratch utiliza uma abordagem gráfica, permitindo-nos arrastar e soltar blocos que contêm instruções.
   
   No ambiente do Scratch, compreendemos a estrutura, onde temos um palco para exibir o programa, peças de quebra-cabeça representando funções ou variáveis, e a possibilidade de adicionar personagens. Experimentamos a criação de programas simples, como fazer o gato dizer "olá, mundo", utilizando blocos como "say" e "green flag clicked".
@@ -74,7 +74,7 @@ Em resumo, esta aula inaugural proporcionou uma visão abrangente dos conceitos 
 </details>
 
 <details>
-  <summary>Exercício:</summary>
+  <summary>Mais detalhes exercício:</summary>
   Agora é a minha vez de escolher uma aventura no Scratch! A tarefa é criar um projeto à minha escolha, seja uma história interativa, jogo, animação, ou qualquer outra coisa. Existem alguns requisitos a seguir:
   
   O projeto deve ter pelo menos dois sprites, sendo que um deles não deve ser um gato.
@@ -102,13 +102,11 @@ A criatividade floresceu com a introdução de variáveis, elementos dinâmicos 
 
 Apesar de não incorporar sons no projeto, a atmosfera do jogo permanece intensa. Cada pulo do dinossauro, cada vitória e derrota são marcados por uma trilha sonora imaginativa, criada mentalmente durante a exploração da selva virtual.
 
-A culminação desse esforço criativo encontra-se no meu projeto do Dinossauro Google, agora disponível para explorar e desfrutar [aqui](https://scratch.mit.edu/projects/971443808){:target="_blank"}. Cada linha de código é um fragmento do meu entusiasmo, cada comando uma escolha deliberada para criar uma experiência única. Sinta-se convidado a aventurar-se na terra dos dinossauros, onde a diversão é infinita, e a criatividade não conhece limites!
+A combinação desse esforço criativo encontra-se no meu projeto do Dinossauro Google, agora disponível para explorar e desfrutar [aqui](https://scratch.mit.edu/projects/971443808). Cada linha de código é um fragmento do meu entusiasmo, cada comando uma escolha deliberada para criar uma experiência única. Sinta-se convidado a aventurar-se na terra dos dinossauros, onde a diversão é infinita, e a criatividade não conhece limites!
 
 ![](img/01-scratch-dinossauro.png)
 
-Link para o projeto: [Dinossauro Google](https://scratch.mit.edu/projects/971443808){:target="_blank"}
-
-Link para o projeto: <a href="https://scratch.mit.edu/projects/971443808" target="_blank">Dinossauro Google</a>
+Link para o projeto: [Dinossauro Google](https://scratch.mit.edu/projects/971443808)
 
 
 <details>
