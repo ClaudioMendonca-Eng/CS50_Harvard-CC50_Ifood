@@ -350,6 +350,53 @@ Por fim, a aula introduziu o algoritmo de ordenação merge sort, que utiliza a 
 
 Em resumo, a aula de Algoritmos forneceu uma compreensão mais profunda de conceitos como busca, ordenação, structs, recursão e algoritmos de ordenação específicos. Este conhecimento aprimorado será valioso para resolver problemas complexos e otimizar o desempenho dos programas que desenvolvo.
 
+<details>
+  <summary>Mais detalhes exercício Plurality:</summary>
+  Eu já fiz o curso e entendi o que está acontecendo aqui. Estamos lidando com um exercício de programação onde precisamos implementar um programa em C que simule uma eleição de pluralidade. Basicamente, trata-se de um sistema de votação onde cada eleitor pode votar em apenas um candidato, e o candidato com o maior número de votos vence a eleição.
+
+  O programa começa pedindo ao usuário que insira os nomes dos candidatos através da linha de comando. Em seguida, solicita o número de eleitores e permite que cada eleitor vote em um candidato.
+
+  O código fornecido já possui algumas estruturas básicas, como a definição de uma estrutura candidate para representar cada candidato, e uma matriz global de candidates para armazenar todos os candidatos.
+
+  No entanto, há duas funções principais, vote e print_winner, que precisam ser completadas para que o programa funcione corretamente.
+
+  A função vote recebe o nome de um candidato como entrada e deve atualizar o número de votos desse candidato, se o nome corresponder a um candidato válido. Se o nome não corresponder a nenhum dos candidatos na eleição, a função retorna falso para indicar uma cédula inválida.
+
+  Já a função print_winner deve imprimir o nome do candidato que recebeu mais votos na eleição. Em caso de empate, deve imprimir os nomes de todos os candidatos vencedores.
+
+  Para testar o programa, podemos usar exemplos como os fornecidos nas especificações. O código foi estruturado no diretório [Modulo-03-Algoritmos/11_plurality/plurality.c](Modulo-03-Algoritmos/11_plurality/plurality.c). Podemos inserir os nomes dos candidatos e simular a votação de um número específico de eleitores. Em seguida, o programa deve imprimir o nome do vencedor ou vencedores, conforme necessário.
+  
+  Link do teste: [Teste CS50 Plurality](https://submit.cs50.io/check50/96b7b0a8c81909658d9159f70a6deb87b4756718)
+</details>
+
+<details>
+  <summary>Mais detalhes exercício Runoff:</summary>
+  
+  Neste exercício, estamos simulando uma eleição de segundo turno, onde os eleitores podem classificar os candidatos em ordem de preferência. O objetivo é implementar um programa chamado "runoff" que execute esse processo.
+
+  Em uma eleição de segundo turno, cada eleitor classifica os candidatos em ordem de preferência. Em vez de apenas escolher um candidato, eles podem indicar sua primeira, segunda e terceira escolhas. Isso permite uma representação mais precisa das preferências dos eleitores.
+
+  No programa fornecido, há uma série de funções a serem implementadas para simular o processo eleitoral:
+
+  vote: Esta função registra o voto de um eleitor, indicando a preferência deles entre os candidatos.
+
+  tabulate: Atualiza o número de votos que cada candidato recebeu até o momento.
+
+  print_winner: Verifica se algum candidato já obteve a maioria dos votos e imprime o vencedor, se aplicável.
+
+  find_min: Determina o menor número de votos que qualquer candidato ainda na eleição possui atualmente.
+
+  is_tie: Verifica se há um empate entre todos os candidatos restantes.
+
+  eliminate: Elimina o candidato (ou candidatos) com o menor número de votos.
+
+  O processo de votação continua até que um candidato obtenha a maioria dos votos ou até que ocorra um empate entre todos os candidatos restantes. Em caso de empate, a eleição é declarada empatada.
+
+  Para testar o programa, podemos usar exemplos como os fornecidos nas especificações. O código foi estruturado no diretório [Modulo-03-Algoritmos/12_runoff/runoff.c](Modulo-03-Algoritmos/12_runoff/runoff.c). Devemos garantir que funcione corretamente para diferentes números de candidatos, que os votos sejam registrados corretamente, que candidatos inválidos não sejam considerados e que o vencedor seja impresso corretamente. Também precisamos verificar se o programa lida corretamente com empates entre todos os candidatos restantes, sem eliminar ninguém nesse caso.
+  
+  Link do teste: [Teste CS50 Runoff](https://submit.cs50.io/check50/5a0817d65c51ff25a38f557c31a3cbcad55fb560)
+</details>
+
 
 ## <a name="licença"> Licença </a>
 
