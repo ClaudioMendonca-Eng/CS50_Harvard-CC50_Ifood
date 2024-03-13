@@ -397,6 +397,23 @@ Em resumo, a aula de Algoritmos forneceu uma compreensão mais profunda de conce
   Link do teste: [Teste CS50 Runoff](https://submit.cs50.io/check50/5a0817d65c51ff25a38f557c31a3cbcad55fb560)
 </details>
 
+<details>
+  <summary>Mais detalhes exercício Tideman:</summary>
+  No exercício 3, precisamos implementar um programa que simule uma eleição Tideman, também conhecida como eleição de pares ranqueados. Nesse tipo de eleição, os eleitores classificam os candidatos em ordem de preferência e, com base nessas classificações, determinamos o vencedor.
+
+  Para entender melhor como funciona esse tipo de eleição, vamos considerar um exemplo. Suponha que temos três candidatos: Alice, Bob e Charlie. Em vez de simplesmente escolher um candidato, os eleitores os classificam. Por exemplo, um eleitor pode classificar Alice como sua primeira preferência, seguida por Charlie e depois Bob.
+
+  Ao coletar os votos de todos os eleitores, podemos construir uma matriz de preferências, onde preferences[i][j] representa o número de eleitores que preferem o candidato i ao candidato j. Com base nessas preferências, podemos determinar os pares de candidatos onde um é preferido sobre o outro.
+
+  Em seguida, classificamos esses pares em ordem decrescente de força de vitória, onde a força de vitória é o número de eleitores que preferem o candidato preferido. Depois disso, travamos esses pares no gráfico candidato, evitando criar ciclos. O candidato que não tem nenhuma aresta apontando para ele é declarado o vencedor da eleição.
+
+  O programa já nos fornece um esqueleto para começar, com funções que precisamos implementar. Por exemplo, a função vote recebe as preferências de um eleitor e atualiza as classificações correspondentes. A função record_preferences atualiza a matriz de preferências com as preferências de cada eleitor. A função add_pairs adiciona os pares de candidatos preferidos, e assim por diante.
+
+  Nossa tarefa é completar essas funções de acordo com as especificações fornecidas. Depois de implementar todas as funções necessárias, podemos testar o programa, podemos usar exemplos como os fornecidos nas especificações. O código foi estruturado no diretório [Modulo-03-Algoritmos/13_tideman/tideman.c](Modulo-03-Algoritmos/13_tideman/tideman.c), fornecendo o vencedor da eleição com base nos votos dados.
+  
+  Link do teste: [Teste CS50 Tideman](https://submit.cs50.io/check50/1189a000828c1dd25e86b9365a7e3d3d1b329fc2)
+</details>
+
 
 ## <a name="licença"> Licença </a>
 
