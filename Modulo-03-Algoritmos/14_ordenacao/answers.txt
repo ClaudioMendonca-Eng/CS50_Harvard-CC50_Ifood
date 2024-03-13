@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Running that program with sorted text with 50000 numbers, it takes less time compared to sort3.
+
+sort2 uses: Merge Sort
+
+How do you know?: Running that program with both sorted and unsorted files with 50000 numbers, it's executed very faster compared to other sorts.
+
+sort3 uses: Selection Sort
+
+How do you know?: Running that program with sorted text with 50000 numbers, it takes more time compared to sort1.

@@ -399,7 +399,7 @@ Em resumo, a aula de Algoritmos forneceu uma compreensão mais profunda de conce
 
 <details>
   <summary>Mais detalhes exercício Tideman:</summary>
-  No exercício 3, precisamos implementar um programa que simule uma eleição Tideman, também conhecida como eleição de pares ranqueados. Nesse tipo de eleição, os eleitores classificam os candidatos em ordem de preferência e, com base nessas classificações, determinamos o vencedor.
+  Precisamos implementar um programa que simule uma eleição Tideman, também conhecida como eleição de pares ranqueados. Nesse tipo de eleição, os eleitores classificam os candidatos em ordem de preferência e, com base nessas classificações, determinamos o vencedor.
 
   Para entender melhor como funciona esse tipo de eleição, vamos considerar um exemplo. Suponha que temos três candidatos: Alice, Bob e Charlie. Em vez de simplesmente escolher um candidato, os eleitores os classificam. Por exemplo, um eleitor pode classificar Alice como sua primeira preferência, seguida por Charlie e depois Bob.
 
@@ -412,6 +412,23 @@ Em resumo, a aula de Algoritmos forneceu uma compreensão mais profunda de conce
   Nossa tarefa é completar essas funções de acordo com as especificações fornecidas. Depois de implementar todas as funções necessárias, podemos testar o programa, podemos usar exemplos como os fornecidos nas especificações. O código foi estruturado no diretório [Modulo-03-Algoritmos/13_tideman/tideman.c](Modulo-03-Algoritmos/13_tideman/tideman.c), fornecendo o vencedor da eleição com base nos votos dados.
   
   Link do teste: [Teste CS50 Tideman](https://submit.cs50.io/check50/1189a000828c1dd25e86b9365a7e3d3d1b329fc2)
+</details>
+
+<details>
+  <summary>Mais detalhes Laboratório 3 - Ordenação:</summary>
+  No Laboratório de Classificação 3, minha tarefa é analisar três programas de classificação para determinar quais algoritmos eles estão usando. Na aula anterior, aprendemos sobre três algoritmos de classificação: selection sort, bubble sort e merge sort.
+
+  O selection sort percorre a lista, selecionando o menor elemento a cada iteração e movendo-o para sua posição correta. O bubble sort compara pares de elementos adjacentes e os troca se estiverem fora de ordem, continuando até que a lista esteja ordenada. Por fim, o merge sort divide a lista em metades, classifica cada metade e, em seguida, mescla as metades ordenadas.
+
+  Cada algoritmo tem sua própria eficiência, expressa em termos de tempo de execução, que varia dependendo do número e da ordem dos elementos na lista. Por exemplo, o selection sort e o bubble sort têm um tempo de execução de O(n^2), o que significa que pode levar um número quadrático de operações para classificar uma lista de tamanho n. Enquanto isso, o merge sort tem um tempo de execução de O(n log n), que é mais eficiente para listas maiores.
+
+  Agora, minha missão é identificar qual algoritmo está por trás de cada programa de classificação (sort1, sort2 e sort3). Para isso, devo testar esses programas em diferentes arquivos de entrada contendo números em diferentes ordens (aleatória, invertida, classificada) e tamanhos. Usando o comando time, posso cronometrar quanto tempo cada programa leva para classificar os números.
+
+  Por exemplo, executar o comando time ./sort1 reversed10000.txt me mostrará quanto tempo o sort1 leva para classificar 10.000 números invertidos. Ao observar o desempenho de cada programa em diferentes tipos de arquivos de entrada, posso deduzir qual algoritmo de classificação está sendo usado em cada caso.
+  
+  Registrarei minhas conclusões e explicações em [Modulo-03-Algoritmos/14_ordenacao/answers.txt](Modulo-03-Algoritmos/14_ordenacao/answers.txt).nalisando o comportamento de cada programa com base nos diferentes tipos de arquivos de entrada fornecidos. Ao considerar o desempenho de cada algoritmo com listas já classificadas, invertidas ou embaralhadas, poderei determinar qual algoritmo está associado a cada programa de classificação.
+  
+  Link do teste: [Teste CS50 Ordenação](https://submit.cs50.io/check50/7f9cf3f945e60d49f9230e2f8ee249eb17e6dadc)
 </details>
 
 
