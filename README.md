@@ -487,7 +487,30 @@ Esses conceitos são fundamentais para entender como os programas interagem com 
 
   O código foi estruturado no diretório [Modulo-04-Memoria/15_filter](Modulo-04-Memoria/15_filter). Agora sou capaz de escrever código para manipular imagens digitalmente e aplicar uma variedade de efeitos visuais.
   
-  Link do teste: [Teste CS50 Filtro(versão fácil)](https://submit.cs50.io/check50/ 7be94734597d453ec12abd741986fc6d787468f59)
+  Link do teste: [Teste CS50 Filtro(versão fácil)](https://submit.cs50.io/check50/7be94734597d453ec12abd741986fc6d787468f59)
+</details>
+
+<details>
+  <summary>Mais detalhes exercício Filtro(versão desafiadora):</summary>
+  O exercício consiste em implementar um programa que aplique filtros a imagens BMP. As imagens BMP são representadas por uma grade de pixels, onde cada pixel pode ter diferentes valores de cor para vermelho, verde e azul.
+
+  Os filtros a serem implementados são os seguintes:
+
+  Escala de Cinza: Transforma a imagem em uma versão preto e branco, onde a intensidade de cada pixel é determinada pela média dos valores de vermelho, verde e azul desse pixel.
+
+  Sépia: Transforma a imagem em uma versão sépia, dando a ela uma aparência antiga e marrom-avermelhada. Cada pixel é calculado com base nos valores originais de vermelho, verde e azul, conforme uma fórmula específica.
+
+  Refletir: Reflete a imagem horizontalmente, de modo que os pixels do lado esquerdo da imagem terminem no lado direito e vice-versa.
+
+  Desfoque: Aplica um efeito de desfoque à imagem, suavizando os detalhes ao calcular a média dos valores de cor dos pixels vizinhos.
+
+  Para implementar esses filtros, você precisa manipular uma matriz de pixels, onde cada pixel é representado por valores de vermelho, verde e azul. As funções para implementar cada filtro recebem como entrada a altura e largura da imagem, bem como uma matriz 2D de pixels. Essas funções modificam os valores dos pixels para aplicar o efeito desejado.
+
+  É importante lembrar que os valores de cor dos pixels são inteiros, então qualquer cálculo com números de ponto flutuante deve ser arredondado para o inteiro mais próximo.
+
+  O código foi estruturado no diretório [Modulo-04-Memoria/15_filter](Modulo-04-Memoria/15_filter)Além disso, é crucial testar os filtros em arquivos de imagem de amostra fornecidos para garantir que eles estejam funcionando corretamente.
+  
+  Link do teste: [Teste CS50 Filtro(versão desafiadora)](https://submit.cs50.io/check50/c016442eff5ecaa58edaf627f9dfa6a052087cd9)
 </details>
 
 
