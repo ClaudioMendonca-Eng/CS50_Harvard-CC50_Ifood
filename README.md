@@ -433,6 +433,63 @@ Em resumo, a aula de Algoritmos forneceu uma compreensão mais profunda de conce
   Link do teste: [Teste CS50 Ordenação](https://submit.cs50.io/check50/7f9cf3f945e60d49f9230e2f8ee249eb17e6dadc)
 </details>
 
+## <a name="modulo04"> Modulo 04 Memória </a>
+
+Na aula sobre memória, aprendi sobre vários conceitos essenciais para entender como os programas de computador funcionam internamente. Aqui estão algumas das coisas que exploramos:
+
+Hexadecimal: Discutimos como os endereços de memória são representados no sistema hexadecimal, o que é útil para entender onde os dados estão armazenados na memória do computador.
+
+Endereços de Memória: Descobri que cada variável em um programa tem um endereço na memória, e podemos acessar esse endereço usando o operador "&".
+
+Ponteiros: Aprendi sobre ponteiros, que são variáveis que armazenam endereços de memória. Eles são úteis para acessar e manipular dados em locais específicos da memória.
+
+Strings: Exploramos como as strings são armazenadas na memória como sequências de caracteres, e como podemos acessar cada caractere individualmente usando índices.
+
+Aritmética de Ponteiros: Entendi como podemos realizar operações matemáticas diretamente nos ponteiros para acessar diferentes locais de memória.
+
+Compare e Copie: Aprendi sobre a diferença entre comparar inteiros e comparar strings em C, e como copiar strings de forma segura sem causar vazamentos de memória.
+
+Valgrind: Descobri uma ferramenta útil chamada Valgrind, que pode ajudar a identificar vazamentos de memória e erros de acesso.
+
+Valores de Lixo: Entendi o conceito de valores de lixo, que são valores indeterminados que podem estar presentes em variáveis não inicializadas.
+
+Swap (Troca): Exploramos como trocar os valores de duas variáveis em um programa, e as limitações dessa operação quando usada em funções.
+
+Layout de Memória: Discutimos como a memória do computador é organizada em diferentes seções, como o código de máquina, variáveis globais, pilha e heap.
+
+scanf: Aprendi a usar a função scanf para obter entrada do usuário em diferentes formatos, como inteiros e strings.
+
+Arquivos: Exploramos como abrir, ler e escrever arquivos em um programa em C.
+
+Gráficos: Discutimos a possibilidade de trabalhar com gráficos e imagens em programas, e como os dados binários são interpretados para exibir imagens.
+
+Esses conceitos são fundamentais para entender como os programas interagem com a memória do computador e como podemos manipular dados de forma eficiente e segura.
+
+<details>
+  <summary>Mais detalhes exercício Filtro(versão fácil):</summary>
+  Ao fazer o curso, aprendi a implementar um programa que aplica filtros a imagens BMP. O curso começou com uma explicação sobre o formato de imagens BMP e como elas são representadas digitalmente. Aprendi que uma imagem é essencialmente uma grade de pixels, onde cada pixel pode ter uma cor diferente. No caso de imagens em preto e branco, cada pixel é representado por um bit, onde 0 pode ser preto e 1 pode ser branco.
+
+  O formato BMP suporta diferentes quantidades de bits por pixel, permitindo representar uma ampla gama de cores. Por exemplo, um BMP de 24 bits usa 8 bits para o vermelho, 8 bits para o verde e 8 bits para o azul em cada pixel. Esses valores de cor podem ser combinados de várias maneiras para criar diferentes cores.
+
+  Além disso, aprendi sobre os cabeçalhos presentes nos arquivos BMP, que armazenam informações como altura, largura e metadados da imagem. Esses cabeçalhos são seguidos pelo bitmap real, que é uma matriz de bytes onde cada triplo de bytes representa a cor de um pixel.
+
+  No curso, também aprendi sobre diferentes filtros que podem ser aplicados a imagens, como escala de cinza, sépia, reflexão, desfoque e detecção de bordas. Cada filtro modifica os pixels da imagem de uma maneira específica para produzir um efeito desejado.
+
+  Para implementar esses filtros, aprendi a trabalhar com a estrutura de dados RGBTRIPLE, que representa um pixel na imagem. As funções que implementam os filtros recebem como entrada uma matriz 2D de pixels, onde cada elemento da matriz é um RGBTRIPLE.
+
+  Ao implementar cada filtro, era necessário percorrer cada pixel da imagem e modificar seus valores de cor de acordo com a lógica do filtro específico. Por exemplo, para o filtro de escala de cinza, era necessário calcular a média dos valores de cor dos pixels para determinar o tom de cinza a ser aplicado.
+
+  Após implementar os filtros, o programa foi capaz de ler uma imagem BMP, aplicar o filtro escolhido pelo usuário e salvar a imagem resultante em um novo arquivo BMP.
+
+  Durante o curso, também aprendi sobre o Makefile, que é um arquivo de configuração utilizado para compilar o programa e facilitar o processo de desenvolvimento.
+
+  No geral, o curso me proporcionou uma compreensão sólida sobre como trabalhar com imagens BMP e aplicar filtros para modificar suas aparências.
+
+  O código foi estruturado no diretório [Modulo-04-Memoria/15_filter](Modulo-04-Memoria/15_filter). Agora sou capaz de escrever código para manipular imagens digitalmente e aplicar uma variedade de efeitos visuais.
+  
+  Link do teste: [Teste CS50 Filtro(versão fácil)](https://submit.cs50.io/check50/ 7be94734597d453ec12abd741986fc6d787468f59)
+</details>
+
 
 
 
