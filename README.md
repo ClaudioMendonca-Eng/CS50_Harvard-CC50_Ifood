@@ -17,6 +17,8 @@ O CC50 é mais do que um curso, é uma experiência que nos desafia, expande nos
   <img src="https://img.shields.io/badge/Developer-239120?style=for-the-badge&logo=c&logoColor=white">
 </div>
 
+## Índice
+
 - [Instrutores](#instrutor)
 - [Apresentação](#apresentacao)
 - [Modulo 00 Scratch](#modulo00)
@@ -430,6 +432,13 @@ Em resumo, a aula de Algoritmos forneceu uma compreensão mais profunda de conce
   
   Link do teste: [Teste CS50 Ordenação](https://submit.cs50.io/check50/7f9cf3f945e60d49f9230e2f8ee249eb17e6dadc)
 </details>
+
+
+
+
+
+
+
 
 
 ## <a name="licença"> Licença </a>
