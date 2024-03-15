@@ -513,6 +513,27 @@ Esses conceitos são fundamentais para entender como os programas interagem com 
   Link do teste: [Teste CS50 Filtro(versão desafiadora)](https://submit.cs50.io/check50/c016442eff5ecaa58edaf627f9dfa6a052087cd9)
 </details>
 
+<details>
+  <summary>Mais detalhes exercício Recover:</summary>
+  Este é um exercício que visa recuperar imagens JPEG de uma imagem forense, que é basicamente um arquivo de dados. Para realizar essa tarefa, primeiro é necessário entender a estrutura dos arquivos JPEG.
+
+  Os arquivos JPEG têm uma assinatura específica nos primeiros bytes, que é 0xff, 0xd8, 0xff e um byte variável começando com 0xe0, 0xe1 ou 0xe2. Portanto, o programa precisa procurar por esses padrões nos dados fornecidos.
+
+  Como as câmeras digitais geralmente armazenam imagens consecutivas em cartões de memória, cada imagem JPEG é seguida imediatamente pela próxima. Além disso, as câmeras geralmente usam um sistema de arquivos FAT com blocos de 512 bytes. Isso significa que é possível buscar as assinaturas JPEG apenas nos primeiros quatro bytes de cada bloco de 512 bytes.
+
+  O programa itera sobre o arquivo de imagem forense, lendo 512 bytes de cada vez em um buffer. Ele verifica se esses 512 bytes contêm a assinatura de um JPEG. Se sim, começa a escrever os bytes em um novo arquivo JPEG. Esse processo continua até que outra assinatura de JPEG seja encontrada, indicando o início de um novo arquivo.
+
+  Para implementar isso, o programa utiliza a função fread para ler os dados do arquivo de imagem, e fwrite para escrever os dados em novos arquivos JPEG. O programa continua a ler e escrever até o final do arquivo de imagem forense ser alcançado.
+
+  No final, o programa gera vários arquivos JPEG numerados sequencialmente, começando com 000.jpg, contendo as imagens recuperadas do arquivo de imagem forense fornecido.
+
+  Para garantir a precisão do programa, é importante testar as imagens recuperadas visualmente e excluir quaisquer arquivos JPEG gerados incorretamente. Isso pode ser feito com o comando rm *.jpg, que exclui todos os arquivos JPEG no diretório de trabalho.
+
+  O código foi estruturado no diretório [Modulo-04-Memoria/16_recover/recover.c](Modulo-04-Memoria/16_recover/recover.c). Para implementar o programa, é necessário utilizar o tipo FILE para manipular os arquivos, além de entender e verificar a estrutura dos arquivos JPEG. O uso de funções como sprintf, fopen, fclose, fread e fwrite é essencial para ler e escrever dados nos arquivos.
+  
+  Link do teste: [Teste CS50 Recover](https://submit.cs50.io/check50/afe16de1a20b3bafec31764bca5a8a3c419e4214)
+</details>
+
 
 
 
