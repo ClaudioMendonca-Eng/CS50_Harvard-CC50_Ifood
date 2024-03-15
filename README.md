@@ -546,7 +546,7 @@ Esses conceitos são fundamentais para entender como os programas interagem com 
 
   Ao executar o programa, fornecemos três argumentos na linha de comando: o nome do arquivo de entrada, o nome do arquivo de saída e o fator pelo qual o volume será alterado. Por exemplo, se fornecermos um fator de 2.0, o volume será dobrado; se fornecermos 0.5, o volume será cortado pela metade.
 
-  Registrarei minhas conclusões e explicações em [Modulo-03-Algoritmos/14_ordenacao/answers.txt](Modulo-03-Algoritmos/14_ordenacao/answers.txt).No final, nosso programa deve ser capaz de modificar o volume de qualquer arquivo WAV fornecido, mantendo a qualidade do áudio.
+  Registrarei minhas conclusões e explicações em [Modulo-04-Memoria/17_volume/volume.c](Modulo-04-Memoria/17_volume/volume.c).No final, nosso programa deve ser capaz de modificar o volume de qualquer arquivo WAV fornecido, mantendo a qualidade do áudio.
   
   Link do teste: [Teste CS50 Volume](https://submit.cs50.io/check50/7516be68d333094de82a7b4d6bcf23bc959a4c65)
 </details>
