@@ -428,7 +428,7 @@ Em resumo, a aula de Algoritmos forneceu uma compreensão mais profunda de conce
 
   Por exemplo, executar o comando time ./sort1 reversed10000.txt me mostrará quanto tempo o sort1 leva para classificar 10.000 números invertidos. Ao observar o desempenho de cada programa em diferentes tipos de arquivos de entrada, posso deduzir qual algoritmo de classificação está sendo usado em cada caso.
   
-  Registrarei minhas conclusões e explicações em [Modulo-03-Algoritmos/14_ordenacao/answers.txt](Modulo-03-Algoritmos/14_ordenacao/answers.txt).nalisando o comportamento de cada programa com base nos diferentes tipos de arquivos de entrada fornecidos. Ao considerar o desempenho de cada algoritmo com listas já classificadas, invertidas ou embaralhadas, poderei determinar qual algoritmo está associado a cada programa de classificação.
+  Registrarei minhas conclusões e explicações em [Modulo-03-Algoritmos/14_ordenacao/answers.txt](Modulo-03-Algoritmos/14_ordenacao/answers.txt). Analisando o comportamento de cada programa com base nos diferentes tipos de arquivos de entrada fornecidos. Ao considerar o desempenho de cada algoritmo com listas já classificadas, invertidas ou embaralhadas, poderei determinar qual algoritmo está associado a cada programa de classificação.
   
   Link do teste: [Teste CS50 Ordenação](https://submit.cs50.io/check50/7f9cf3f945e60d49f9230e2f8ee249eb17e6dadc)
 </details>
@@ -532,6 +532,23 @@ Esses conceitos são fundamentais para entender como os programas interagem com 
   O código foi estruturado no diretório [Modulo-04-Memoria/16_recover/recover.c](Modulo-04-Memoria/16_recover/recover.c). Para implementar o programa, é necessário utilizar o tipo FILE para manipular os arquivos, além de entender e verificar a estrutura dos arquivos JPEG. O uso de funções como sprintf, fopen, fclose, fread e fwrite é essencial para ler e escrever dados nos arquivos.
   
   Link do teste: [Teste CS50 Recover](https://submit.cs50.io/check50/afe16de1a20b3bafec31764bca5a8a3c419e4214)
+</details>
+
+<details>
+  <summary>Mais detalhes Laboratório 4 - Volume:</summary>
+  No laboratório de Volume, estamos trabalhando em um programa em linguagem C que modifica o volume de um arquivo de áudio no formato WAV. Os arquivos WAV armazenam áudio como uma sequência de amostras, que são números representando o valor do sinal de áudio em um determinado momento. Inicialmente, cada amostra é um inteiro de 2 bytes (16 bits).
+
+  O objetivo é escrever um programa que, dado um arquivo de áudio de entrada, gere um novo arquivo de áudio de saída com o volume modificado. Isso é feito multiplicando cada amostra de áudio por um fator específico.
+
+  No início do programa, é necessário ler o cabeçalho do arquivo de áudio de entrada, que sempre tem 44 bytes, e escrevê-lo no arquivo de saída. Em seguida, percorremos o restante do arquivo, lendo as amostras de áudio, atualizando seus volumes e escrevendo as novas amostras no arquivo de saída.
+
+  Para lidar com isso, usamos diferentes tipos de dados em C, como uint8_t para representar bytes individuais e int16_t para representar amostras de áudio de 16 bits. Além disso, usamos as funções fread() e fwrite() para ler e escrever dados nos arquivos.
+
+  Ao executar o programa, fornecemos três argumentos na linha de comando: o nome do arquivo de entrada, o nome do arquivo de saída e o fator pelo qual o volume será alterado. Por exemplo, se fornecermos um fator de 2.0, o volume será dobrado; se fornecermos 0.5, o volume será cortado pela metade.
+
+  Registrarei minhas conclusões e explicações em [Modulo-03-Algoritmos/14_ordenacao/answers.txt](Modulo-03-Algoritmos/14_ordenacao/answers.txt).No final, nosso programa deve ser capaz de modificar o volume de qualquer arquivo WAV fornecido, mantendo a qualidade do áudio.
+  
+  Link do teste: [Teste CS50 Volume](https://submit.cs50.io/check50/7516be68d333094de82a7b4d6bcf23bc959a4c65)
 </details>
 
 
