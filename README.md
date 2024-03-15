@@ -243,7 +243,7 @@ Ao longo do curso, desenvolvi programas simples e compreendi conceitos fundament
 
   O código foi estruturado no diretório [Modulo-01-C/06_population/population.c](Modulo-01-C/06_population/population.c).
   
-  Link do teste: [Teste CS50 Credit](https://submit.cs50.io/check50/a877a9104b3974f35df73d61c09ce1cbea0a597b)
+  Link do teste: [Teste CS50 Crescimento populacional](https://submit.cs50.io/check50/a877a9104b3974f35df73d61c09ce1cbea0a597b)
 </details>
 
 ## <a name="modulo02"> Modulo 02 Arrays </a>
@@ -487,7 +487,7 @@ Esses conceitos são fundamentais para entender como os programas interagem com 
 
   O código foi estruturado no diretório [Modulo-04-Memoria/15_filter](Modulo-04-Memoria/15_filter). Agora sou capaz de escrever código para manipular imagens digitalmente e aplicar uma variedade de efeitos visuais.
   
-  Link do teste: [Teste CS50 Filtro(versão fácil)](https://submit.cs50.io/check50/7be94734597d453ec12abd741986fc6d787468f59)
+  Link do teste: [Teste CS50 Filtro(versão fácil)](https://submit.cs50.io/check50/194c06a84725d2dd9576ede375bb7cca9bcf5ed9)
 </details>
 
 <details>
@@ -550,6 +550,10 @@ Esses conceitos são fundamentais para entender como os programas interagem com 
   
   Link do teste: [Teste CS50 Volume](https://submit.cs50.io/check50/7516be68d333094de82a7b4d6bcf23bc959a4c65)
 </details>
+
+## <a name="modulo05"> Modulo 05 Estruturas de Dados </a>
+
+
 
 
 
