@@ -591,7 +591,12 @@ No geral, o Módulo 5 foi uma jornada emocionante e desafiadora. Sinto-me mais c
 
   Para sugerir correções, o programa pode usar algoritmos de distância de edição, como o algoritmo de Levenshtein, para encontrar palavras semelhantes no dicionário. Isso permite que o programa sugira correções para palavras mal escritas com base em palavras semelhantes no dicionário.
 
-  O código foi estruturado no diretório [Modulo-05-Estruturas_de_Dados/18_speller/](Modulo-05-Estruturas_de_Dados/speller/). Agora sou capaz de escrever programas eficientes de verificação ortográfica e aplicar técnicas avançadas de manipulação de dados em C.
+  O código foi estruturado no diretório [Modulo-05-Estruturas_de_Dados/18_speller/](Modulo-05-Estruturas_de_Dados/18_speller/). Agora sou capaz de escrever programas eficientes de verificação ortográfica e aplicar técnicas avançadas de manipulação de dados em C.
+  
+</details>
+
+<details>
+  <summary>Mais detalhes Laboratório 5 - Herança:</summary>
   
 </details>
 
