@@ -597,6 +597,22 @@ No geral, o Módulo 5 foi uma jornada emocionante e desafiadora. Sinto-me mais c
 
 <details>
   <summary>Mais detalhes Laboratório 5 - Herança:</summary>
+  Durante o Lab 5, aprendi a simular a herança de tipos sanguíneos em uma família. O objetivo era entender como os alelos A, B e O são transmitidos de geração em geração, determinando o tipo sanguíneo de cada membro da família.
+
+  Comecei criando um diretório chamado lab5 no ambiente de desenvolvimento (IDE) e baixando o código de distribuição para o projeto.
+  Ao examinar o código fornecido (inheritance.c), entendi que cada pessoa é representada por uma estrutura chamada person, que contém informações sobre seus pais e alelos sanguíneos.
+
+  Minha tarefa principal era implementar a função create_family, que aloca memória para cada membro da família e define seus alelos e pais com base na geração. Além disso, precisei implementar a função free_family para liberar a memória alocada após o uso.
+  Para criar uma família com várias gerações, utilizei recursão na função create_family. Cada pessoa recebe alelos aleatórios de seus pais, seguindo as regras de herança.
+
+  Após implementar as funções, executei o programa inheritance para verificar se a simulação estava correta. O programa imprimiu os tipos sanguíneos de cada membro da família, confirmando que a herança estava sendo simulada corretamente.
+  Finalmente, usei o check50 para verificar se meu código atendia aos requisitos especificados pelo laboratório.
+
+  Essa experiência me proporcionou uma compreensão mais profunda dos conceitos de herança genética e alocação dinâmica de memória em C.
+
+  O código foi estruturado no diretório [Modulo-05-Estruturas_de_Dados/19_inheritance/inheritance.c](Modulo-05-Estruturas_de_Dados/19_inheritance/inheritance.c). Agora sou capaz de simular a herança de características genéticas em uma família e entender como os alelos são transmitidos de geração em geração.
+
+  Link do teste: [Teste CS50 Herança](https://submit.cs50.io/check50/ad1985892c1bfd03e297641847a1efad27fff90e)
   
 </details>
 

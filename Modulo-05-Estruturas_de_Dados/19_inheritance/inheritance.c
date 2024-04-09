@@ -21,6 +21,7 @@ void print_family(person *p, int generation);
 void free_family(person *p);
 char random_allele();
 
+
 int main(void)
 {
     // Seed random number generator
@@ -36,45 +37,69 @@ int main(void)
     free_family(p);
 }
 
+
+
 // Create a new individual with `generations`
 person *create_family(int generations)
 {
-    // TODO: Allocate memory for new person
 
-    // Generation with parent data
-    if (generations > 1)
+    person *p = malloc(sizeof(person));
+
+
+    if (p == NULL)
     {
-        // TODO: Recursively create blood type histories for parents
-
-        // TODO: Randomly assign child alleles based on parents
+        return NULL;
     }
 
-    // Generation without parent data
+    //if i am doing this it is always giving return null as mallac alloted memory is never equal to null..... maybe having some garbage values ??
+
+
+    //use of recursion to create family tree data structure
+    if (generations > 1)
+    {
+        p->parents[0] = create_family(generations - 1);
+        p->parents[1] = create_family(generations - 1);
+
+
+        p->alleles[0] = p->parents[0]->alleles[rand() % 2];
+        p->alleles[1] = p->parents[1]->alleles[rand() % 2];
+    }
     else
     {
-        // TODO: Set parent pointers to NULL
+        p->parents[0] = NULL;
+        p->parents[1] = NULL;
 
-        // TODO: Randomly assign alleles
+        p->alleles[0] = random_allele();
+        p->alleles[1] = random_allele();
+
     }
 
     // TODO: Return newly created person
-    return NULL;
+    return p;
 }
 
 // Free `p` and all ancestors of `p`.
 void free_family(person *p)
 {
-    // TODO: Handle base case
+    if (p == NULL)
+    {
+        return;
+    }
 
-    // TODO: Free parents
+    //free parents
+    free_family(p->parents[0]);
+    free_family(p->parents[1]);
 
-    // TODO: Free child
+    //Free child
+    free(p);
 }
+
+
 
 // Print each family member and their alleles.
 void print_family(person *p, int generation)
 {
-    // Handle base case
+
     if (p == NULL)
     {
         return;
@@ -86,11 +111,13 @@ void print_family(person *p, int generation)
         printf(" ");
     }
 
-    // Print person
+    // Print persons
     printf("Generation %i, blood type %c%c\n", generation, p->alleles[0], p->alleles[1]);
     print_family(p->parents[0], generation + 1);
     print_family(p->parents[1], generation + 1);
 }
+
+
 
 // Randomly chooses a blood type allele.
 char random_allele()
