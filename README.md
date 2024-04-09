@@ -435,35 +435,33 @@ Em resumo, a aula de Algoritmos forneceu uma compreensão mais profunda de conce
 
 ## <a name="modulo04"> Modulo 04 Memória </a>
 
-Na aula sobre memória, aprendi sobre vários conceitos essenciais para entender como os programas de computador funcionam internamente. Aqui estão algumas das coisas que exploramos:
+Aula 4 - Modulo 04 Memória
 
-Hexadecimal: Discutimos como os endereços de memória são representados no sistema hexadecimal, o que é útil para entender onde os dados estão armazenados na memória do computador.
+[![Aula 2- Arrays](img/05-Aula04_youtube.png)](https://www.youtube.com/watch?v=fprdsu0pvAg)
 
-Endereços de Memória: Descobri que cada variável em um programa tem um endereço na memória, e podemos acessar esse endereço usando o operador "&".
+Durante o curso, aprendi sobre o sistema hexadecimal e como ele é fundamental para entender a organização da memória em computadores. Em vez de usar o sistema decimal convencional, os endereços de memória são expressos em hexadecimal, onde cada dígito representa um valor de 0 a 15.
 
-Ponteiros: Aprendi sobre ponteiros, que são variáveis que armazenam endereços de memória. Eles são úteis para acessar e manipular dados em locais específicos da memória.
+Ao trabalhar com números hexadecimais de dois dígitos, percebi que eles podem representar valores de 0 a 255, que é o mesmo valor máximo representável por 8 bits em binário, tornando-os convenientes para representar bytes de dados. Além disso, aprendi sobre a notação de prefixo "0x" para indicar que um número está em hexadecimal, como em "0x10".
 
-Strings: Exploramos como as strings são armazenadas na memória como sequências de caracteres, e como podemos acessar cada caractere individualmente usando índices.
+Explorando ainda mais o conceito de endereços de memória, descobri como os bytes de dados são armazenados em locais específicos na memória do computador. Ao utilizar ponteiros em C, pude acessar diretamente esses endereços e os valores armazenados neles. Os ponteiros, essencialmente, apontam para locais na memória onde os dados estão armazenados.
 
-Aritmética de Ponteiros: Entendi como podemos realizar operações matemáticas diretamente nos ponteiros para acessar diferentes locais de memória.
+Um aspecto interessante que abordei foi o uso de ponteiros para strings. Descobri que uma string em C é na verdade um ponteiro para o primeiro caractere da string, e cada caractere subsequente está armazenado sequencialmente na memória. O caractere nulo '\0' indica o final da string.
 
-Compare e Copie: Aprendi sobre a diferença entre comparar inteiros e comparar strings em C, e como copiar strings de forma segura sem causar vazamentos de memória.
+Por meio de exemplos práticos e da exploração desses conceitos, pude entender como a memória é organizada e acessada em nível de byte, o que é fundamental para desenvolver programas eficientes e compreender melhor o funcionamento interno dos computadores.
 
-Valgrind: Descobri uma ferramenta útil chamada Valgrind, que pode ajudar a identificar vazamentos de memória e erros de acesso.
+Após concluir o curso de aritmética de ponteiros, ganhei um novo entendimento sobre como manipular dados em nível de memória, o que me permitiu melhorar minhas práticas de programação. 
 
-Valores de Lixo: Entendi o conceito de valores de lixo, que são valores indeterminados que podem estar presentes em variáveis não inicializadas.
+Uma das primeiras coisas que aprendi foi sobre a aritmética de ponteiros, que envolve operações matemáticas em endereços de memória usando ponteiros. Com isso, pude compreender como acessar e manipular strings diretamente na memória, tanto imprimindo caracteres individuais quanto indo diretamente para os endereços de memória.
 
-Swap (Troca): Exploramos como trocar os valores de duas variáveis em um programa, e as limitações dessa operação quando usada em funções.
+Além disso, aprendi sobre a importância de comparar e copiar dados corretamente. Por exemplo, ao comparar strings, percebi que mesmo que os caracteres fossem iguais, a comparação direta entre os ponteiros das strings resultaria em "Diferente". Isso me levou a entender a necessidade de fazer cópias seguras de strings para evitar problemas de acesso indevido à memória.
 
-Layout de Memória: Discutimos como a memória do computador é organizada em diferentes seções, como o código de máquina, variáveis globais, pilha e heap.
+Aprofundando meu conhecimento, aprendi sobre o layout de memória em um computador e como diferentes seções da memória são organizadas para armazenar dados do programa. Isso me deu insights sobre problemas como vazamentos de memória e overflow de pilha e heap, e aprendi a usar ferramentas como Valgrind para detectá-los e corrigi-los.
 
-scanf: Aprendi a usar a função scanf para obter entrada do usuário em diferentes formatos, como inteiros e strings.
+Também ganhei experiência na manipulação de arquivos em C, desde a abertura e leitura de arquivos até a cópia de arquivos byte a byte. Isso expandiu minha capacidade de lidar com dados de entrada e saída em meus programas, permitindo-me trabalhar com diferentes tipos de arquivos, como CSV e imagens.
 
-Arquivos: Exploramos como abrir, ler e escrever arquivos em um programa em C.
+Por fim, explorei conceitos avançados, como gráficos e processamento de imagens, usando técnicas como a leitura e identificação de arquivos JPEG. Isso me deu uma visão mais profunda de como os dados são representados em nível binário e como podemos manipulá-los para criar programas mais complexos e sofisticados.
 
-Gráficos: Discutimos a possibilidade de trabalhar com gráficos e imagens em programas, e como os dados binários são interpretados para exibir imagens.
-
-Esses conceitos são fundamentais para entender como os programas interagem com a memória do computador e como podemos manipular dados de forma eficiente e segura.
+Em resumo, o curso de aritmética de ponteiros me proporcionou um conjunto valioso de habilidades e conhecimentos que tenho aplicado em meus projetos de programação, melhorando minha capacidade de entender e trabalhar com dados em nível de memória e aprimorando minhas práticas de programação em geral.
 
 <details>
   <summary>Mais detalhes exercício Filtro(versão fácil):</summary>
@@ -552,6 +550,56 @@ Esses conceitos são fundamentais para entender como os programas interagem com 
 </details>
 
 ## <a name="modulo05"> Modulo 05 Estruturas de Dados </a>
+
+Aula 5 - Estruturas de Dados
+
+[![Aula 5 - Estruturas de Dados](img/06-Aula05_youtube.png)](https://www.youtube.com/watch?v=TsLGYtezjlA)
+
+Após concluir o Módulo 5 do curso, estou empolgado em compartilhar minha experiência e aprendizado sobre redimensionamento de vetores, estruturas de dados e implementação de arrays e listas encadeadas.
+
+Durante este módulo, mergulhei em conceitos mais avançados de programação. Aprendi sobre a importância do redimensionamento de matrizes e como lidar com a alocação dinâmica de memória utilizando funções como malloc e realloc. Ao trabalhar com matrizes, percebi como é essencial gerenciar eficientemente o espaço de memória, especialmente ao adicionar novos elementos.
+
+Explorar as estruturas de dados foi fascinante. Entendi como as estruturas de dados organizam informações de maneira eficiente na memória, proporcionando flexibilidade no armazenamento e acesso aos dados. Aprendi sobre listas encadeadas e como cada elemento é vinculado por meio de ponteiros, permitindo uma alocação dinâmica de memória e facilitando a inserção e remoção de elementos.
+
+A implementação prática desses conceitos foi desafiadora, mas gratificante. Ao criar minhas próprias estruturas de dados em C, como a lista encadeada, pude entender melhor como os ponteiros funcionam e como manipular efetivamente os elementos.
+
+Explorar árvores como uma estrutura de dados foi um ponto alto deste módulo. Compreendi como os nós são organizados em uma árvore binária e como isso facilita a busca eficiente de elementos. A implementação de funções de pesquisa em árvores binárias me proporcionou uma compreensão mais profunda dos algoritmos de busca.
+
+Além disso, aprendi sobre outras estruturas de dados, como tabelas hash e tries, e como elas podem ser úteis em diferentes contextos de programação. Entendi os trade-offs entre tempo de execução e uso de memória ao escolher a estrutura de dados mais adequada para um determinado problema.
+
+No geral, o Módulo 5 foi uma jornada emocionante e desafiadora. Sinto-me mais confiante em minha capacidade de projetar e implementar algoritmos eficientes, além de escolher as melhores estruturas de dados para resolver problemas complexos de programação. Estou ansioso para aplicar esse conhecimento em projetos futuros e continuar a aprimorar minhas habilidades de programação.
+
+<details>
+  <summary>Mais detalhes exercício Speller:</summary>
+  Durante o curso, aprendi a desenvolver um programa de verificação ortográfica chamado Speller. O objetivo era criar um programa eficiente que pudesse verificar a ortografia de um arquivo de texto usando uma tabela de hash.
+
+  A primeira etapa foi implementar a função `load`, que carrega um dicionário de palavras de um arquivo para a memória. Isso foi feito manipulando ponteiros e estruturas de dados para armazenar as palavras de forma eficiente.
+
+  Em seguida, implementei a função `hash`, que calcula um valor de hash para cada palavra do dicionário. Isso permitiu uma pesquisa mais rápida e eficiente das palavras durante a verificação de ortografia.
+
+  Após isso, trabalhei na função `size`, que calcula o número de palavras no dicionário carregado na memória. Isso foi útil para otimizar o desempenho do programa e acompanhar o número de palavras verificadas.
+
+  Em seguida, implementei a função `check`, que verifica se uma palavra está no dicionário carregado na memória. Essa função foi projetada para não fazer distinção entre maiúsculas e minúsculas, garantindo que todas as variações de capitalização de uma palavra fossem consideradas corretas.
+
+  Por fim, trabalhei na função `unload`, que libera toda a memória alocada dinamicamente pelo programa, evitando vazamentos de memória.
+
+  Durante o desenvolvimento, foi essencial seguir as especificações fornecidas e garantir que o programa fosse eficiente tanto em termos de tempo quanto de espaço. Fiquei atento aos detalhes, como garantir que o programa tratasse corretamente as palavras possessivas e não vazasse memória.
+
+  Após implementar todas as funções necessárias, pude testar o programa usando diferentes arquivos de texto e o dicionário fornecido. Usei ferramentas como `valgrind` para garantir que não houvesse vazamentos de memória e `diff` para comparar a saída do meu programa com as respostas esperadas.
+
+  Ao longo do curso, adquiri habilidades essenciais em programação em C, manipulação de ponteiros, gerenciamento de memória e otimização de desempenho de programas. Essas habilidades serão valiosas em projetos futuros e no desenvolvimento de software em geral.
+
+  Para sugerir correções, o programa pode usar algoritmos de distância de edição, como o algoritmo de Levenshtein, para encontrar palavras semelhantes no dicionário. Isso permite que o programa sugira correções para palavras mal escritas com base em palavras semelhantes no dicionário.
+
+  O código foi estruturado no diretório [Modulo-05-Estruturas-de-Dados/18_speller/speller.c](Modulo-05-Estruturas-de-Dados/18_speller/speller.c). Agora sou capaz de escrever programas eficientes de verificação ortográfica e aplicar técnicas avançadas de manipulação de dados em C.
+  
+  Link do teste: [Teste CS50 Speller](https://submit.cs50.io/check50/7f9cf3f945e60d49f9230e2f8ee249eb17e6dadc)
+</details>
+
+
+
+
+
 
 
 
