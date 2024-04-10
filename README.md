@@ -616,11 +616,97 @@ No geral, o Módulo 5 foi uma jornada emocionante e desafiadora. Sinto-me mais c
   
 </details>
 
+## <a name="modulo06"> Modulo 06 Python </a>
 
+Aula 6 - Python
 
+[![Aula 6 - Python](img/07-Aula06_youtube.png)](https://www.youtube.com/watch?v=d6ZcOxZYh4Y)
 
+Após concluir o Módulo 6 do curso, estou realmente empolgado com o que aprendi sobre Python! É incrível como esta linguagem está sendo amplamente utilizada atualmente e como é poderosa em termos de simplicidade e recursos adicionais em comparação com outras linguagens.
 
+O professor David de Harvard nos guiou através de conceitos básicos de Python, abordando estruturas como vetores, listas e dicionários, além de algumas funções do CS50. Aprendi como imprimir "hello, world" em Python é tão simples como digitar `print("hello, world")`, sem a necessidade de especificar novas linhas ou terminar com ponto e vírgula.
 
+Exploramos também como ler arquivos em Python e fomos apresentados a algumas bibliotecas interessantes. Fiquei animado para descobrir mais sobre essas bibliotecas conforme avançava nas Anotações da Aula.
+
+Além disso, aprendi sobre as diferenças entre Python e C, como a sintaxe simplificada em Python e a gestão automática de tipos de dados, o que torna a linguagem mais flexível e fácil de usar.
+
+Ao longo do curso, pratiquei a manipulação de strings, listas e dicionários, bem como a implementação de loops e condições em Python. Descobri como as expressões booleanas são tratadas e como as estruturas de controle, como if-elif-else e loops while e for, são utilizadas.
+
+Também experimentei a importação de módulos e bibliotecas em Python, o que me permitiu acessar funcionalidades adicionais e resolver problemas em um nível mais alto de abstração. Por exemplo, aprendi a usar a biblioteca `csv` para trabalhar com arquivos CSV e a biblioteca `pyttsx3` para converter texto em fala.
+
+Ao praticar algoritmos em Python, descobri como implementar pesquisas lineares e como trabalhar com listas, dicionários e conjuntos. Explorei também o conceito de troca de variáveis em Python e a manipulação de arquivos.
+
+Por fim, fiquei impressionado com a variedade de bibliotecas disponíveis em Python, desde aquelas para processamento de imagens e reconhecimento facial até reconhecimento de fala e criação de códigos QR.
+
+Em resumo, minha experiência com o Módulo 6 do curso foi extremamente enriquecedora. Aprendi muito sobre Python e suas aplicações práticas, e estou animado para continuar explorando e aprimorando minhas habilidades nessa linguagem tão versátil e poderosa.
+
+<details>
+  <summary>Mais detalhes exercício Hello:</summary>
+  Após concluir o curso sobre programação em Python, uma das práticas fundamentais que aprendi foi como criar um simples programa de "Hello World" que captura o nome do usuário e o saúda. Isso me lembrou do primeiro exercício de introdução que fiz na IDE, mas agora aplicado em Python.
+
+  Durante o curso, implementei o código seguindo a especificação fornecida. Basicamente, criei um arquivo chamado hello.py dentro do diretório ~/pset6/hello e escrevi um programa que solicita ao usuário que insira seu nome. Em seguida, o programa imprime uma mensagem de saudação, incluindo o nome fornecido pelo usuário.
+
+  O código foi estruturado no diretório [Modulo-06-Python/20_hello/hello.py](Modulo-06-Python/20_hello/hello.py). Essa experiência me ajudou a reforçar conceitos básicos de entrada e saída em Python, além de me familiarizar ainda mais com a linguagem.
+
+  Link do teste: [Teste CS50 Hello](https://submit.cs50.io/check50/bb9fa10a07d9fa65723d74170fac2939edf18c93)
+</details>
+
+<details>
+  <summary>Mais detalhes exercício Mario Less:</summary>
+  Durante o curso, aprendi a implementar um programa em Python que imprime uma pirâmide de Mario, semelhante àquela que fiz em C. A pirâmide é formada por blocos de tijolos, onde cada linha tem um número diferente de tijolos.
+  
+  A importância de solicitar e validar entradas do usuário para garantir que o programa funcione corretamente. Por isso, ao desenvolver o programa, implementei um mecanismo para solicitar a altura da meia-pirâmide, assegurando que fosse um número inteiro positivo entre 1 e 8.
+
+  Além disso, aprendi a utilizar loops e comandos de impressão para gerar a meia-pirâmide desejada. Garanti que a pirâmide estivesse alinhada com o canto inferior esquerdo do terminal e que não houvesse espaços extras no final de cada linha.
+
+  Ao testar o programa, verifiquei sua robustez ao digitar diferentes tipos de entrada. Por exemplo, ao digitar valores inválidos, como -1, 0, 9, ou até mesmo palavras, o programa rejeitou essas entradas e solicitou ao usuário que fornecesse um número válido.
+
+  Por fim, executei várias instâncias do programa, inserindo diferentes alturas para a meia-pirâmide e confirmando se a saída estava de acordo com o esperado, garantindo assim a correta execução do código em diferentes cenários.
+
+  O código foi estruturado no diretório [Modulo-06-Python/21_mario_less/mario.py](Modulo-06-Python/21_mario_less/mario.py).Este exercício foi uma excelente oportunidade para aplicar os conhecimentos adquiridos durante o curso e consolidar minhas habilidades em Python.
+
+  Link do teste: [Teste CS50 Mario Less](https://submit.cs50.io/check50/427632d2eaa68683eff66f1032829600589dc024)
+</details>
+
+<details>
+  <summary>Mais detalhes exercício Mario More:</summary>
+  Uma das tarefas desafiadoras que enfrentei foi a implementação de um programa que cria uma meia-pirâmide dupla. Esta tarefa exigiu não apenas entender os conceitos básicos de loops e estruturas de controle, mas também a capacidade de solicitar entrada do usuário e validar essa entrada.
+
+  No meu programa Python chamado "mario.py", eu criei uma lógica que solicita ao usuário a altura desejada da meia-pirâmide. Garanti que o programa aceitasse apenas valores inteiros positivos entre 1 e 8, como requisitado. Se o usuário inserisse um valor fora desse intervalo ou algo que não fosse um número, meu programa rejeitaria a entrada e pediria uma nova entrada válida.
+
+  Após obter a altura desejada da meia-pirâmide, utilizei loops e instruções de impressão para criar a meia-pirâmide dupla usando "#" como blocos. Garanti que as pirâmides estivessem alinhadas com o canto inferior esquerdo do terminal, com dois espaços entre elas e sem espaços extras após o último conjunto de "#" em cada linha.
+
+  Testei minuciosamente meu programa para garantir que ele se comportasse conforme o esperado em diferentes cenários. Por exemplo, verifiquei se ele rejeitava entradas inválidas, como números fora do intervalo permitido e entradas que não eram números. Além disso, verifiquei se as meia-pirâmides eram geradas corretamente para diferentes alturas especificadas pelo usuário.
+
+  Concluir esse exercício não apenas me ajudou a praticar os conceitos fundamentais de Python, mas também me permitiu desenvolver minhas habilidades de resolução de problemas e validação de entrada do usuário. 
+
+  O código foi estruturado no diretório [Modulo-06-Python/22_mario_more/mario.py](Modulo-06-Python/22_mario_more/mario.py). Estou confiante de que posso aplicar essas habilidades em projetos futuros e continuar a aprimorar meu conhecimento em programação.
+
+  Link do teste: [Teste CS50 Mario More](https://submit.cs50.io/check50/fcf771099be3957b3c02847cbb1dd7c8a62dea87)
+</details>
+
+<details>
+  <summary>Mais detalhes exercício Dinheiro:</summary>
+  Uma das práticas que aprendi foi a implementação de um programa para calcular o número mínimo de moedas necessárias para dar troco a um usuário.
+
+  Em primeiro lugar, criei um arquivo chamado cash.py em ~/pset6/cash/, onde desenvolvi o programa. Utilizei a função get_float da biblioteca CS50 para receber a entrada do usuário e a função print para produzir a resposta.
+
+  O programa solicita ao usuário que insira o valor do troco devido. Em seguida, ele calcula o número mínimo de moedas necessário para esse troco, considerando apenas moedas de 25¢, 10¢, 5¢ e 1¢.
+
+  Uma parte importante foi garantir que o programa tratasse corretamente diferentes formatos de entrada, como dólares e centavos. Por exemplo, se o troco devido fosse $9.75, o programa esperaria a entrada do usuário como 9.75, não como $9.75 ou 975. No entanto, se o troco fosse exatamente $9, o programa aceitaria a entrada como 9.00 ou apenas 9.
+
+  Além disso, o programa foi projetado para lidar com casos em que o usuário fornece um valor não negativo. Se o usuário inserir um valor negativo, o programa solicitará novamente uma entrada válida até que o usuário concorde.
+
+  Finalmente, para automatizar os testes do código, a última linha de saída do programa foi configurada para exibir apenas o número mínimo de moedas possível, seguido por uma nova linha.
+
+  Após escrever o programa, realizei testes para garantir seu funcionamento adequado. Executei o programa com diferentes valores de troco e verifiquei se o número mínimo de moedas gerado estava correto. Também testei o comportamento do programa em situações de entrada inválida, como valores negativos, letras ou entrada vazia, garantindo que o programa rejeitasse essas entradas e solicitasse uma nova entrada ao usuário.
+
+  Essa prática foi muito útil para aprimorar minhas habilidades em Python e desenvolver a capacidade de resolver problemas de forma eficiente e precisa. 
+
+  O código foi estruturado no diretório [Modulo-06-Python/23_dinheiro/cash.py](Modulo-06-Python/23_dinheiro/cash.py). Agora me sinto mais confiante em lidar com tarefas que envolvem cálculos financeiros e manipulação de dados em Python.
+
+  Link do teste: [Teste CS50 Dinheiro](https://submit.cs50.io/check50/c643afe8d6b0d79f24cbc38e3c982b1dbb298ea8)
+</details>
 
 
 
