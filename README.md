@@ -708,6 +708,70 @@ Em resumo, minha experiência com o Módulo 6 do curso foi extremamente enriquec
   Link do teste: [Teste CS50 Dinheiro](https://submit.cs50.io/check50/c643afe8d6b0d79f24cbc38e3c982b1dbb298ea8)
 </details>
 
+<details>
+  <summary>Mais detalhes exercício Crédito (versão desafiadora):</summary>
+  Durante o curso, aprendi a implementar um programa em Python que verifica se um número de cartão de crédito é válido de acordo com o algoritmo de Luhn. Este algoritmo é utilizado para validar a autenticidade de números de cartão de crédito. 
+
+  Ao escrever o programa, aprendi a solicitar ao usuário um número de cartão de crédito e a verificar se é um número válido da American Express, MasterCard ou Visa, como exigido pelo exercício. Utilizei as funções `get_int` ou `get_string` da biblioteca CS50 para obter a entrada do usuário, dependendo da implementação escolhida.
+
+  Para automatizar a validação do número de cartão de crédito, aprendi a utilizar expressões regulares com o módulo `re` do Python para garantir que a entrada do usuário consista apenas em dígitos e tenha o comprimento correto.
+
+  Após implementar o programa, realizei testes para verificar se estava funcionando corretamente. Digitei diferentes números de cartão de crédito, como os exemplos fornecidos no exercício, e meu programa identificou corretamente se eram AMEX, MASTERCARD, VISA ou inválidos, conforme esperado.
+
+  O código foi estruturado no diretório [Modulo-06-Python/24_credito/credit.py](Modulo-06-Python/24_credito/credit.py). Essa prática me proporcionou uma compreensão mais profunda sobre algoritmos de validação e me permitiu aplicar meus conhecimentos em Python para resolver problemas do mundo real, como a verificação da autenticidade de números de cartão de crédito.
+
+  Link do teste: [Teste CS50 Legibilidade](https://submit.cs50.io/check50/c7f8718cd93b71286d131b97b7e86f05554da1de)
+</details>
+
+<details>
+  <summary>Mais detalhes exercício Crédito (versão desafiadora):</summary>
+  Durante o curso, aprendi a desenvolver um programa em Python chamado "readability.py" que calcula o nível escolar aproximado necessário para compreender um texto. A especificação era clara: primeiro, o programa solicita ao usuário que insira um texto. Em seguida, ele determina o nível escolar necessário para compreender esse texto com base na fórmula Coleman-Liau. Essa fórmula considera o número médio de letras por 100 palavras e o número médio de sentenças por 100 palavras.
+
+  Ao escrever o programa, precisei contar o número de letras, palavras e frases no texto fornecido pelo usuário. Uma letra foi definida como qualquer caractere alfabético, e uma palavra foi considerada como qualquer sequência de caracteres separados por espaços. Além disso, qualquer ocorrência de ponto final, ponto de exclamação ou ponto de interrogação indicou o final de uma frase.
+
+  A saída do programa foi formatada para mostrar o resultado como "Grade X", onde X é o nível escolar calculado pela fórmula Coleman-Liau, arredondado para o número inteiro mais próximo. Se o resultado foi 16 ou superior, o programa exibiu "Grade 16+" em vez de fornecer o número exato. Se o resultado foi menor que 1, o programa imprimiu "Before Grade 1".
+
+  Testei o programa com diferentes textos para garantir seu correto funcionamento. Após esses testes, confirmei que o programa conseguia determinar com precisão o nível escolar aproximado necessário para compreender um texto, de acordo com a fórmula Coleman-Liau. 
+
+  O código foi estruturado no diretório [Modulo-06-Python/25_legibilidade/readability.py](Modulo-06-Python/25_legibilidade/readability.py). A prática com este exercício me proporcionou uma melhor compreensão sobre processamento de texto em Python e como aplicar fórmulas matemáticas para resolver problemas específicos.
+
+  Link do teste: [Teste CS50 Legibilidade](https://submit.cs50.io/check50/a37730385e4d7da4e432311dd310eaee6e811df7)
+</details>
+
+<details>
+  <summary>Mais detalhes exercício DNA:</summary>
+  Desde que concluí o curso sobre DNA, minha compreensão sobre como identificar indivíduos com base em sua sequência genética se aprofundou significativamente. Uma das principais lições que aprendi foi sobre os Short Tandem Repeats (STRs), que são sequências curtas de bases de DNA repetidas consecutivamente em locais específicos. Aprendi que a variação no número de repetições desses STRs entre os indivíduos pode ser utilizada para identificar pessoas de forma única.
+
+  Durante o curso, implementei um programa em Python chamado `dna.py` que realiza essa identificação. O programa recebe como entrada um arquivo CSV contendo contagens de STRs para uma lista de indivíduos e um arquivo de texto contendo a sequência de DNA a ser identificada. Ao executar o programa, ele analisa a sequência de DNA e compara suas contagens de STRs com as do banco de dados fornecido. Se encontrar uma correspondência exata, o programa imprime o nome do indivíduo correspondente; caso contrário, imprime "No match".
+
+  Uma parte importante do processo foi entender como calcular a execução mais longa de repetições consecutivas de cada STR na sequência de DNA. Para isso, utilizei técnicas de manipulação de strings em Python e estruturas de dados como listas e dicionários para rastrear as informações necessárias.
+
+  Ao final do curso, realizei uma série de testes para garantir que o programa funcionasse corretamente. Testei com diferentes sequências de DNA e bancos de dados de STRs, verificando se o programa produzia os resultados esperados em cada caso. 
+
+  O código foi estruturado no diretório [Modulo-06-Python/26_dna/dna/dna.py](Modulo-06-Python/26_dna/dna/dna.py). Em resumo, a experiência adquirida durante o curso me proporcionou um entendimento mais profundo sobre a análise de DNA e a identificação de pessoas com base em suas sequências genéticas, além de fortalecer minhas habilidades de programação em Python.
+
+  Link do teste: [Teste CS50 DNA](https://submit.cs50.io/check50/5f44274742140ebdcc3d639f8f23edd21f108635)
+</details>
+
+<details>
+  <summary>Mais detalhes Laboratório 6 - Copa do Mundo:</summary>
+  Minha experiência com o curso sobre simulação da Copa do Mundo FIFA foi realmente fascinante. Durante o curso, aprendi a utilizar o Python para criar um programa que simula o desenrolar do torneio, estimando as chances de vitória de cada equipe participante.
+
+  Primeiramente, ao analisar os dados fornecidos nos arquivos CSV, percebi que as informações continham os nomes das equipes participantes e suas respectivas classificações. Essas classificações, baseadas nas avaliações da FIFA, foram cruciais para estimar as probabilidades de vitória de cada equipe em um jogo.
+
+  Com o auxílio do Python, desenvolvi um programa capaz de simular o torneio repetidamente, rodada após rodada, até restar apenas uma equipe como vencedora. Para isso, implementei funções que simulavam os jogos entre as equipes e atualizavam o progresso do torneio de acordo com os resultados.
+
+  Ao executar o programa, pude observar as probabilidades estimadas de vitória para cada equipe. A cada execução, as probabilidades variavam um pouco devido à aleatoriedade inserida nas simulações, o que tornava o processo ainda mais interessante.
+
+  Ao finalizar o curso e aplicar o que aprendi, fiquei surpreso com o quão precisas as estimativas se mostraram em relação aos resultados reais das Copas do Mundo de 2018 e 2019. Por exemplo, o programa previu com precisão que a França venceria a Copa do Mundo masculina de 2018, enquanto os Estados Unidos sairiam vitoriosos na competição feminina de 2019.
+
+  Através desse curso, não apenas adquiri habilidades em programação Python, mas também ganhei uma compreensão mais profunda sobre a importância das simulações e das análises de dados em eventos esportivos de grande escala como a Copa do Mundo FIFA. 
+
+  O código foi estruturado no diretório [Modulo-06-Python/27_lab_copa/lab6/tournament.py](Modulo-06-Python/27_lab_copa/lab6/tournament.py). Foi uma experiência enriquecedora que certamente aplicarei em outros projetos futuros.
+
+  Link do teste: [Teste CS50 Copa do Mundo](https://submit.cs50.io/check50/92fff4b01de4dcde94cdbcf1c554ed8cb104411c)
+</details>
+
 
 
 
