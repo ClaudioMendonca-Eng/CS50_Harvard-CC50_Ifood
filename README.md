@@ -772,7 +772,82 @@ Em resumo, minha experiência com o Módulo 6 do curso foi extremamente enriquec
   Link do teste: [Teste CS50 Copa do Mundo](https://submit.cs50.io/check50/92fff4b01de4dcde94cdbcf1c554ed8cb104411c)
 </details>
 
+## <a name="modulo07"> Modulo 07 SQL </a>
 
+Aula 7 - SQL
+
+[![Aula 7 - SQL](img/08-Aula07_youtube.png)](https://www.youtube.com/watch?v=8mAL2E-0-lw)
+
+Depois de concluir o Módulo 7 sobre SQL, aprendi uma variedade de conceitos e práticas importantes relacionados a bancos de dados e linguagem SQL. Uma das principais áreas de aprendizado foi o processamento de dados, onde aprendi a coletar dados de fontes diferentes e a manipulá-los de forma eficiente.
+
+Por exemplo, aprendi a limpar dados, o que envolveu a remoção de espaços em branco extras e a padronização de dados para facilitar a análise. Também explorei métodos para contar e buscar dados, o que me permitiu extrair insights úteis de conjuntos de dados grandes.
+
+Além disso, aprendi sobre bancos de dados relacionais e como usar SQL para interagir com eles. Aprendi a criar e manipular tabelas, executar consultas para recuperar dados específicos e usar diferentes cláusulas e funções para filtrar e ordenar resultados.
+
+Um aspecto particularmente interessante foi aprender sobre a normalização de dados e a importância de projetar esquemas de banco de dados eficientes. Isso incluiu entender como dividir dados em tabelas separadas e usar chaves estrangeiras para estabelecer relacionamentos entre elas.
+
+Durante o curso, também explorei problemas comuns em bancos de dados, como ataques de injeção de SQL e condições de corrida. Aprendi a aplicar técnicas de prevenção, como o uso de parâmetros de consulta para evitar injeções de SQL e o uso de transações para garantir a integridade dos dados em ambientes multiusuários.
+
+No geral, o curso me proporcionou uma compreensão sólida dos fundamentos de bancos de dados e SQL, e estou ansioso para aplicar esses conhecimentos em projetos futuros.
+
+<details>
+  <summary>Mais detalhes exercício Filmes:</summary>
+  Durante o curso, aprendi a usar consultas SQL para explorar e analisar um banco de dados de filmes. Comecei baixando o problema no meu próprio ambiente de desenvolvimento. Depois de entender a estrutura do banco de dados, comecei a escrever consultas para responder a várias perguntas sobre os filmes.
+
+  Por exemplo, uma das consultas que aprendi a fazer foi listar os títulos de todos os filmes lançados em 2008. Isso envolveu escrever uma consulta SQL que seleciona os títulos dos filmes da tabela de filmes onde o ano de lançamento é 2008.
+
+  Outra consulta interessante foi determinar o ano de nascimento da atriz Emma Stone. Aqui, escrevi uma consulta para encontrar o ano de nascimento dela na tabela de pessoas, usando seu nome como referência.
+
+  Também pratiquei consultas mais complexas, como listar os nomes de todas as pessoas que estrelaram um filme no qual Kevin Bacon também estrelou. Isso exigiu a identificação de todos os filmes em que Kevin Bacon participou e, em seguida, encontrar todas as pessoas que estrelaram esses filmes, excluindo o próprio Kevin Bacon.
+
+  Ao longo do curso, pude aprimorar minhas habilidades em escrever consultas SQL eficazes e precisas para extrair informações específicas do banco de dados de filmes.
+
+  O código foi estruturado no diretório [Modulo-07-SQL/28_movies/movies/](Modulo-07-SQL/28_movies/movies/). Essa prática me proporcionou uma compreensão mais profunda sobre consultas SQL e como interagir com bancos de Essas habilidades são úteis não apenas para análise de dados de filmes, mas também podem ser aplicadas a uma variedade de outras áreas que utilizam bancos de dados relacionais.
+
+  Link do teste: [Teste CS50 Filmes](https://submit.cs50.io/check50/aa38e437597fa55fe2cdd38d2392a1c6ba52ca9c)
+</details>
+
+<details>
+  <summary>Mais detalhes exercício Fiftyville:</summary>
+  Ao longo do curso, tive a oportunidade de me envolver em um emocionante exercício de resolução de mistério chamado Fiftyville. O desafio era investigar o roubo do pato de estimação do CC50 em Fiftyville, uma cidade fictícia. Com base nos registros da cidade disponíveis em um banco de dados SQLite chamado fiftyville.db, minha tarefa era identificar o ladrão, para onde ele fugiu e quem foi seu cúmplice.
+
+  Para começar, acessei o banco de dados e comecei a realizar consultas SQL para acessar informações relevantes. Mantive um registro de todas as consultas executadas no arquivo log.sql, onde também incluí comentários explicando meu raciocínio e o que esperava obter de cada consulta. Esse registro serviu como evidência do processo que utilizei para resolver o mistério.
+
+  Iniciei minha investigação examinando a tabela crime_scene_reports, buscando relatórios que correspondessem à data e ao local do crime, que ocorreu em 28 de julho de 2020 na Chamberlin Street. A partir daí, expandi minha busca para outras tabelas relevantes, como suspects e getaway_cars, procurando por pistas que pudessem me levar ao ladrão, à cidade para onde ele fugiu e ao seu cúmplice.
+
+  Depois de analisar cuidadosamente os dados e seguir várias pistas, finalmente consegui identificar o ladrão, a cidade para onde ele fugiu e seu cúmplice. Registrei minhas conclusões no arquivo answers.txt, preenchendo as informações solicitadas.
+
+  Essa experiência me proporcionou uma prática valiosa na aplicação de consultas SQL para resolver problemas do mundo real, além de desenvolver minhas habilidades de raciocínio analítico e resolução de problemas. 
+
+  O código foi estruturado no diretório [Modulo-07-SQL/29_fiftyville/answers.txt](Modulo-07-SQL/29_fiftyville/answers.txt). Foi um desafio empolgante e gratificante que me ajudou a consolidar meu entendimento de bancos de dados relacionais e consultas SQL. 
+
+  Link do teste: [Teste CS50 Fiftyville](https://submit.cs50.io/check50/91ad722271cb140e9778715008f05cceb0ae149c)
+  </details>
+
+<details>
+  <summary>Mais detalhes Laboratório 5 - Songs:</summary>
+  Após concluir o curso sobre consultas SQL para bancos de dados de músicas, pude aprimorar minhas habilidades na manipulação de dados usando o SQLite. O laboratório 7, intitulado "Songs", foi especialmente útil para aplicar esses conhecimentos na prática.
+
+  Ao acessar o banco de dados fornecido, chamado songs.db, contendo informações do Spotify sobre as 100 principais músicas transmitidas em 2018, comecei a explorar e a responder várias perguntas utilizando consultas SQL.
+
+  Primeiramente, escrevi uma consulta para listar os nomes de todas as músicas presentes no banco de dados. Isso me permitiu visualizar todas as músicas disponíveis em uma tabela simples.
+
+  Em seguida, ordenei os nomes das músicas em ordem crescente de ritmo, utilizando outra consulta SQL. Essa tarefa me ajudou a compreender como classificar os dados de acordo com critérios específicos.
+
+  Outro desafio foi listar as cinco músicas mais longas, em ordem decrescente de duração. Isso exigiu o uso de funções de agregação e ordenação para obter os resultados desejados.
+
+  Além disso, explorei consultas mais complexas, como encontrar músicas com dançabilidade, energia e valência acima de 0,75, e calcular a energia média de todas as músicas. Essas consultas me permitiram entender como filtrar dados com base em condições específicas e calcular estatísticas sobre o conjunto de dados.
+
+  Também pratiquei a busca por músicas de artistas específicos, como Post Malone e Drake, sem fazer suposições sobre os identificadores dos artistas.
+
+  Por fim, escrevi uma consulta para identificar músicas que apresentam participações de outros artistas, observando se o nome da música continha a marcação "feat.".
+
+  O código foi estruturado no diretório [Modulo-07-SQL/29_fiftyville/answers.txt](Modulo-07-SQL/30_songs/). No geral, o laboratório 7 proporcionou uma experiência prática valiosa para aprimorar minhas habilidades em consultas SQL e aplicá-las a um contexto real de análise de dados musicais.
+
+  Link do teste: [Teste CS50 Songs](https://submit.cs50.io/check50/e4105d3153b895c65fe60bad65746e1e7f2fc2c8)
+  </details>
+
+## <a name="modulo08
 
 
 
