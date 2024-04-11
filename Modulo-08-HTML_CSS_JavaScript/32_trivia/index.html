@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Trivia!</title>
+
+    <script>
+        function changeResultText(id, color, text){
+            const resultText = document.getElementById(id);
+            resultText.innerHTML = "";
+            resultText.innerHTML = text;
+            resultText.style.color = color;
+        }
+
+        function checkAnswer1(answer){
+            document.querySelectorAll(".buttonAnswer").forEach(item => {
+                item.style.backgroundColor = "#d9edff";
+            });
+
+            if(answer.innerHTML === "Rio de Janeiro"){
+                answer.style.backgroundColor = "green";
+                changeResultText("result1", "green", "Correto!");
+            } else {
+                answer.style.backgroundColor = "red";
+                changeResultText("result1", "red", "Incorreto");
+            }
+        }
+
+        function checkAnswer2(){
+            const correctAnswer = "Brasil";
+            const answerField = document.getElementById("question");
+
+            if(answerField.value.toLowerCase() === correctAnswer.toLowerCase()){
+                answerField.style.backgroundColor = "green";
+                changeResultText("result2", "green", "Correto!");
+            } else {
+                answerField.style.backgroundColor = "red";
+                changeResultText("result2", "red", "Incorreto");
+            }
+        }
+    </script>
+
+</head>
+<body>
+
+<div class="jumbotron">
+    <h1>Trivia!</h1>
+</div>
+
+<div class="container">
+
+    <div class="section">
+        <h2>Parte 1: Múltipla Escolha</h2>
+        <hr>
+        <h3>Qual é a capital do estado do Rio de Janeiro?</h3>
+        <p id="result1"></p>
+        <!-- TODO: Adicione a questão de múltipla escolha aqui -->
+        <button class="buttonAnswer" onclick="checkAnswer1(this)">São Paulo</button>
+        <button class="buttonAnswer" onclick="checkAnswer1(this)">Belo Horizonte</button>
+        <button class="buttonAnswer" onclick="checkAnswer1(this)">Curitiba</button>
+        <button class="buttonAnswer" onclick="checkAnswer1(this)">Rio de Janeiro</button>
+        <button class="buttonAnswer" onclick="checkAnswer1(this)">Porto Alegre</button>
+    </div>
+
+    <div class="section">
+        <h2>Parte 2: Resposta Livre</h2>
+        <hr>
+        <h3>Qual é o país que possui a maior floresta tropical do mundo?</h3>
+        <p id="result2"></p>
+        <!-- TODO: Adicione a questão de resposta livre aqui -->
+        <form onsubmit="checkAnswer2(); return false;">
+            <input type="text" name="question" id="question">
+            <button type="submit">Verificar Resposta</button>
+        </form>
+    </div>
+
+</div>
+</body>
+</html>

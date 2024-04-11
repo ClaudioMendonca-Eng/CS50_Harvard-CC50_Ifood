@@ -825,7 +825,7 @@ No geral, o curso me proporcionou uma compreensão sólida dos fundamentos de ba
   </details>
 
 <details>
-  <summary>Mais detalhes Laboratório 5 - Songs:</summary>
+  <summary>Mais detalhes Laboratório 7 - Songs:</summary>
   Após concluir o curso sobre consultas SQL para bancos de dados de músicas, pude aprimorar minhas habilidades na manipulação de dados usando o SQLite. O laboratório 7, intitulado "Songs", foi especialmente útil para aplicar esses conhecimentos na prática.
 
   Ao acessar o banco de dados fornecido, chamado songs.db, contendo informações do Spotify sobre as 100 principais músicas transmitidas em 2018, comecei a explorar e a responder várias perguntas utilizando consultas SQL.
@@ -847,8 +847,59 @@ No geral, o curso me proporcionou uma compreensão sólida dos fundamentos de ba
   Link do teste: [Teste CS50 Songs](https://submit.cs50.io/check50/e4105d3153b895c65fe60bad65746e1e7f2fc2c8)
   </details>
 
+## <a name="modulo08"> Modulo 08 HTML CSS JavaScript </a>
 
+Aula 8 - HTML, CSS, JavaScript
 
+[![Aula 8 - HTML, CSS, JavaScript](img/09-Aula08_youtube.png)](https://www.youtube.com/watch?v=IVqHjBsRBpc)
+
+Após concluir o módulo 8 sobre Desenvolvimento Web, estou animado para compartilhar um pouco sobre minha jornada de aprendizado e as práticas que adquiri. Neste módulo, mergulhei fundo no funcionamento da Internet e aprendi sobre as linguagens fundamentais: HTML, CSS e JavaScript.
+
+A compreensão da infraestrutura da Internet foi fascinante. Aprendi sobre a rede de redes de computadores que se comunicam entre si, e como ela funciona como base para enviar e receber dados. Desde os protocolos como TCP/IP até o sistema de nome de domínio (DNS), cada parte desempenha um papel crucial na transmissão de informações pela rede.
+
+HTML, a linguagem de marcação que dá estrutura às páginas da web, foi uma das primeiras coisas que aprendi. Descobri como as tags e atributos são usados para definir o conteúdo e a estrutura de uma página da web. Criar uma página simples em HTML foi um excelente ponto de partida para minha jornada.
+
+Com CSS, mergulhei no mundo do design web. Aprendi como estilizar elementos HTML, usando seletores e propriedades para controlar a aparência de uma página. Desde a definição de estilos diretamente no HTML até a criação de um arquivo CSS separado, explorei várias maneiras de tornar minhas páginas web visualmente atraentes.
+
+JavaScript, por sua vez, abriu todo um novo mundo de interatividade. Descobri como usar JavaScript para tornar minhas páginas web mais dinâmicas, desde manipulação de elementos HTML até o tratamento de eventos do usuário. Aprender a escrever código JavaScript para criar formulários interativos e alterar o conteúdo de uma página em tempo real foi emocionante.
+
+Uma das partes mais emocionantes do curso foi quando aprendi sobre APIs e como elas podem ser usadas para interagir com outros dispositivos na rede. Usando Python, consegui criar scripts que se conectavam a dispositivos como lâmpadas e controlavam seu comportamento remotamente.
+
+No geral, o módulo 8 foi uma jornada incrível de aprendizado. Desde a compreensão dos fundamentos da web até a criação de páginas interativas e scripts poderosos, adquiri habilidades valiosas que me ajudarão em futuros projetos de desenvolvimento web. Estou animado para continuar explorando e aprofundando meu conhecimento nesse campo emocionante!
+
+<details>
+  <summary>Mais detalhes exercício Homepage:</summary>
+  DDurante o curso, aprendi a construir uma página inicial usando HTML, CSS e JavaScript. Entendi que essas três linguagens desempenham papéis distintos na construção de sites: o HTML descreve o conteúdo, o CSS cuida da estética e o JavaScript torna os sites interativos e dinâmicos.
+
+  Para começar, aprendi a baixar o código inicial e a configurar meu ambiente de desenvolvimento. Em seguida, fui orientado a criar pelo menos quatro páginas HTML diferentes, incluindo a página principal (index.html), e a garantir que os visitantes pudessem navegar entre elas através de hiperlinks.
+
+  Além disso, integrei recursos do Bootstrap para melhorar a aparência do meu site, como botões e layouts responsivos. Criei meu próprio arquivo CSS (styles.css) para personalizar ainda mais o design, utilizando diferentes seletores e propriedades CSS.
+
+  Para tornar o site mais interativo, incluí recursos de JavaScript, como alertas e efeitos de animação. Também me certifiquei de que o site tivesse uma boa aparência em diferentes dispositivos, desde laptops até smartphones.
+
+  Ao testar o site, utilizei ferramentas como http-server para visualizar as alterações em tempo real e verifiquei a compatibilidade em diversos navegadores. Além disso, verifiquei se o HTML estava bem formatado e válido, utilizando serviços de validação de marcação.
+
+  No geral, essa experiência me proporcionou um entendimento mais profundo sobre a construção de sites e me permitiu aplicar os conceitos aprendidos de HTML, CSS e JavaScript de maneira prática e criativa.
+
+  O código foi estruturado no diretório [Modulo-08-HTML_CSS_JavaScript/31_homepage/homepage/](Modulo-08-HTML_CSS_JavaScript/31_homepage/homepage/). 
+
+</details>
+
+<details>
+  <summary>Mais detalhes Laboratório 8 - Trivia:</summary>
+  Durante o curso, aprendi a desenvolver uma página web interativa de trivia usando HTML, CSS e JavaScript. Foi uma experiência prática incrível!
+
+  Inicialmente, projetei a estrutura da página no arquivo index.html. Adicionei uma pergunta de múltipla escolha e outra de resposta livre. Para a pergunta de múltipla escolha, usei um cabeçalho h3 para o texto da pergunta e criei botões para cada opção de resposta possível, garantindo que apenas uma estivesse correta. Em seguida, utilizei JavaScript para implementar a lógica de mudança de cor dos botões conforme o usuário clicava neles. Se a resposta fosse incorreta, o botão ficaria vermelho e exibiria um texto indicando "Incorreto"; se correta, o botão ficaria verde e exibiria "Correto!".
+
+  Para a pergunta de resposta livre, também utilizei um cabeçalho h3 para o texto da pergunta e um campo de input para que o usuário pudesse digitar sua resposta. Novamente, com JavaScript, adicionei a lógica para mudar a cor do campo de input com base na resposta do usuário. Se a resposta estivesse incorreta, o campo ficaria vermelho e exibiria "Incorreto"; se correta, o campo ficaria verde e exibiria "Correto!".
+
+  Além disso, tive a oportunidade de personalizar o estilo da página editando o arquivo styles.css, tornando-a mais atrativa visualmente.
+
+  Ao longo do curso, pude praticar habilidades essenciais de desenvolvimento web e consolidar conceitos importantes de HTML, CSS e JavaScript. 
+
+  O código foi estruturado no diretório [Modulo-08-HTML_CSS_JavaScript/32_trivia/index.html](Modulo-08-HTML_CSS_JavaScript/32_trivia/index.html). Essa experiência de construir uma página interativa de trivia me proporcionou um ótimo entendimento prático sobre como criar projetos web envolventes e funcionais. Estou animado para aplicar essas habilidades em futuros projetos!
+
+</details>
 
 
 
