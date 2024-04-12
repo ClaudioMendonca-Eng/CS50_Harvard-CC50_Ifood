@@ -869,7 +869,7 @@ No geral, o módulo 8 foi uma jornada incrível de aprendizado. Desde a compreen
 
 <details>
   <summary>Mais detalhes exercício Homepage:</summary>
-  DDurante o curso, aprendi a construir uma página inicial usando HTML, CSS e JavaScript. Entendi que essas três linguagens desempenham papéis distintos na construção de sites: o HTML descreve o conteúdo, o CSS cuida da estética e o JavaScript torna os sites interativos e dinâmicos.
+  Durante o curso, aprendi a construir uma página inicial usando HTML, CSS e JavaScript. Entendi que essas três linguagens desempenham papéis distintos na construção de sites: o HTML descreve o conteúdo, o CSS cuida da estética e o JavaScript torna os sites interativos e dinâmicos.
 
   Para começar, aprendi a baixar o código inicial e a configurar meu ambiente de desenvolvimento. Em seguida, fui orientado a criar pelo menos quatro páginas HTML diferentes, incluindo a página principal (index.html), e a garantir que os visitantes pudessem navegar entre elas através de hiperlinks.
 
@@ -900,6 +900,61 @@ No geral, o módulo 8 foi uma jornada incrível de aprendizado. Desde a compreen
   O código foi estruturado no diretório [Modulo-08-HTML_CSS_JavaScript/32_trivia/index.html](Modulo-08-HTML_CSS_JavaScript/32_trivia/index.html). Essa experiência de construir uma página interativa de trivia me proporcionou um ótimo entendimento prático sobre como criar projetos web envolventes e funcionais. Estou animado para aplicar essas habilidades em futuros projetos!
 
 </details>
+
+## <a name="modulo09"> Modulo 09 Flask </a>
+
+Aula 9 - Flask
+
+[![Aula 9 - Flask](img/10-Aula09_youtube.png)](https://www.youtube.com/watch?v=O9AzmYobpww)
+
+Quando comecei o curso, confesso que não sabia muito sobre Flask. Mas logo na primeira aula, mergulhamos de cabeça no mundo do desenvolvimento web. Aprendi sobre o funcionamento dos servidores web e como o Flask nos permite criar nossos próprios servidores e implementar recursos avançados.
+
+Um dos conceitos fundamentais que absorvi foi o padrão de design MVC (Model-View-Controller). Isso mudou completamente minha maneira de pensar sobre a estrutura de um aplicativo web. Com o Flask, aprendi a organizar meu código de acordo com esse padrão, o que tornou meu código mais legível e fácil de manter.
+
+A parte mais emocionante do curso foi quando comecei a criar meus próprios aplicativos web. Desde a criação de formulários simples até a implementação de funcionalidades mais avançadas, como armazenamento de dados em um banco SQLite e envio de e-mails, cada novo projeto era um desafio empolgante.
+
+Percebi o poder do Flask em lidar com solicitações GET e POST, e como ele facilitava a interação entre o front-end e o back-end do meu aplicativo.
+
+Ao longo do curso, também explorei o uso de sessões para gerenciar informações do usuário e cookies para manter o estado da aplicação. Isso abriu um mundo de possibilidades para criar experiências web mais interativas e personalizadas.
+
+Foi uma experiência gratificante ver tudo o que aprendi se unir em um projeto final. Desde a criação de um banco de dados para armazenar produtos até a implementação de um sistema de busca em tempo real usando JavaScript, cada passo me levou mais perto de me tornar um desenvolvedor web confiante e habilidoso.
+
+Em resumo, o curso sobre Flask não apenas me ensinou os fundamentos do desenvolvimento web, mas também me deu as ferramentas e o conhecimento necessários para criar meus próprios aplicativos web do zero. 
+
+<details>
+  <summary>Mais detalhes exercício C$50 Finanças:</summary>
+  Durante o curso de C$50 Finanças, aprendi a criar um site para gerenciar carteiras de ações. Uma das primeiras etapas foi entender como funcionam as transações de compra e venda de ações, além de aprender sobre a API do IEX, que fornece informações sobre os preços das ações.
+
+  Implementei funcionalidades como registro de usuários, login, logout e consulta de preços de ações. Aprendi a lidar com bancos de dados SQLite para armazenar informações sobre usuários, transações e preços de ações.
+
+  Para garantir a segurança, aprendi sobre hashing de senhas e a importância de armazenar apenas hashes no banco de dados. Além disso, implementei funcionalidades como verificar se um usuário possui saldo suficiente para comprar ações e validar entradas do usuário para evitar problemas como entradas em branco ou valores incorretos.
+
+  Uma das partes mais desafiadoras foi criar uma página index que resumia as ações que um usuário possui, mostrando o número de ações, o preço atual de cada ação e o valor total de cada ação, além do saldo em caixa total.
+
+  Ao longo do curso, aprendi a utilizar diversas ferramentas, como o Flask para criar o backend do site, o Jinja para renderização de templates HTML e o Bootstrap para o frontend, garantindo uma interface amigável e responsiva.
+  
+  O código foi estruturado no diretório [Modulo-09-Flask/33_finance/](Modulo-09-Flask/33_finance/). No geral, o curso foi uma experiência valiosa que me proporcionou habilidades práticas em desenvolvimento web, especialmente no contexto de finanças e bancos de dados.
+
+</details>
+
+<details>
+  <summary>Mais detalhes Laboratório 9 - Birthdays:</summary>
+  Após concluir o Lab 9 sobre o controle de aniversários de amigos, estou animado para compartilhar minha experiência e o que aprendi durante esse projeto.
+
+  Ao começar o lab, aprendi a configurar o ambiente de desenvolvimento no CS50 IDE, baixando os arquivos necessários e familiarizando-me com a estrutura do projeto. O primeiro passo foi entender o problema proposto, que consistia em criar um aplicativo da web usando Flask para gerenciar aniversários de amigos.
+
+  No arquivo `application.py`, comecei a implementar a lógica para lidar com solicitações GET e POST. Quando a rota "/" era acessada via GET, o objetivo era exibir todos os aniversários armazenados em um banco de dados SQLite. Aprendi a usar consultas SQL para recuperar dados do banco de dados e a passá-los para o template HTML para renderização.
+
+  No template `index.html`, implementei a lógica para processar cada aniversário como uma linha na tabela, exibindo o nome e a data do aniversário de cada pessoa.
+
+  Para lidar com solicitações POST, adicionei um formulário HTML no arquivo `index.html`, permitindo que os usuários inserissem novos aniversários. Em seguida, implementei a lógica no `application.py` para adicionar esses novos aniversários ao banco de dados.
+
+  Durante o processo, encontrei algumas dificuldades, mas as dicas fornecidas foram muito úteis para superá-las. Aprendi a executar consultas SQL usando `db.execute`, a passar dados para `render_template()` e a usar loops `for` com Jinja para iterar sobre os dados no template HTML.  
+
+  O código foi estruturado no diretório [Modulo-09-Flask/34_birthdays/lab9/](Modulo-09-Flask/34_birthdays/lab9/). No geral, o Lab 9 foi uma experiência valiosa que me permitiu aplicar meus conhecimentos em desenvolvimento web Flask e bancos de dados SQLite. Estou ansioso para continuar explorando e aprimorando minhas habilidades nessa área.
+</details>
+
+
 
 
 
